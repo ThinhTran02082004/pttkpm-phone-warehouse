@@ -19,6 +19,7 @@ executors:
         environment:
           MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
           MYSQL_DATABASE: pttkpm_rebuild
+          MYSQL_ROOT_HOST: "%"
 
   machine-executor:
     machine:
@@ -46,7 +47,14 @@ jobs:
       - run:
           name: "Chờ MySQL Server sẵn sàng & Nạp CSDL"
           command: |
-            dockerize -wait tcp://127.0.0.1:3306 -timeout 1m
+            for i in $(seq 1 30); do
+              if mysqladmin ping -h 127.0.0.1 -u root --silent 2>/dev/null; then
+                echo "MySQL is ready"
+                break
+              fi
+              echo "Waiting for MySQL... ($i/30)"
+              sleep 2
+            done
             mysql -h 127.0.0.1 -u root pttkpm_rebuild < database/rebuild_schema.sql
             mysql -h 127.0.0.1 -u root pttkpm_rebuild < database/rebuild_seed.sql
       - run:
