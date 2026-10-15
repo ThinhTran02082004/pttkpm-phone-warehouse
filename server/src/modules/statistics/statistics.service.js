@@ -115,8 +115,8 @@ async function getRevenueSummary(dateFilter = null) {
       FROM sales_orders
       WHERE status = 'completed'
       ${clause}
-      GROUP BY DATE(sold_at)
-      ORDER BY DATE(sold_at) ASC
+      GROUP BY DATE_FORMAT(sold_at, '%Y-%m-%d')
+      ORDER BY DATE_FORMAT(sold_at, '%Y-%m-%d') ASC
     `,
     params
   );

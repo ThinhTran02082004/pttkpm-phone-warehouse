@@ -1,4 +1,5 @@
 SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+SET GLOBAL sql_mode = (SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY', ''));
 
 DROP DATABASE IF EXISTS pttkpm_rebuild;
 CREATE DATABASE pttkpm_rebuild
