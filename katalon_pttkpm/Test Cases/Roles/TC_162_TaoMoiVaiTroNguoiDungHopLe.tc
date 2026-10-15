@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_162: Tạo mới Vai trò người dùng hợp lệ</description>
+   <name>TC_162_TaoMoiVaiTroNguoiDungHopLe</name>
+   <tag>Vai trò &amp; Phân quyền,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0162-4000-8000-000000000162</testCaseGuid>
+</TestCaseEntity>

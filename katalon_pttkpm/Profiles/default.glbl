@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Cấu hình biến toàn cục mặc định cho kiểm thử hệ thống Quản lý Kho Hàng Điện Thoại</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Đường dẫn Frontend web application</description>
+      <initValue>'http://localhost:3000'</initValue>
+      <name>BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tên đăng nhập Admin</description>
+      <initValue>'admin'</initValue>
+      <name>ADMIN_USER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mật khẩu Admin</description>
+      <initValue>'123456'</initValue>
+      <name>ADMIN_PASS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tên đăng nhập Quản lý kho</description>
+      <initValue>'warehouse01'</initValue>
+      <name>WAREHOUSE_USER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Thời gian chờ timeout mặc định (giây)</description>
+      <initValue>10</initValue>
+      <name>DEFAULT_TIMEOUT</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,193 @@
+[0.023s][warning][cds] Archived non-system classes are disabled because the java.system.class.loader property is specified (value = "groovy.lang.GroovyClassLoader"). To use archived non-system classes, this property must not be set
+2026-10-15 15:38:39.633 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\trant\.katalon\packages\KS-11.6.0\configuration\org.eclipse.osgi\164\0\.cp\resources\logback\logback-execution.xml
+2026-10-15 15:38:39.635 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized
+2026-10-15 15:38:40.333 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_02_Attributes
+2026-10-15 15:38:40.420 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Trần Đỗ Quốc Thịnh
+2026-10-15 15:38:40.423 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PTTKPM_PhoneWarehouse
+2026-10-15 15:38:40.424 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = trant - Yamato.fpt
+2026-10-15 15:38:40.426 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-15 15:38:40.427 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.51
+2026-10-15 15:38:40.429 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.6.0
+2026-10-15 15:38:40.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran
+2026-10-15 15:38:40.630 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556333293600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.635 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran
+2026-10-15 15:38:40.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.644 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD
+2026-10-15 15:38:40.651 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556369419600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.654 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD
+2026-10-15 15:38:40.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo
+2026-10-15 15:38:40.667 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556384830400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.671 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo
+2026-10-15 15:38:40.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.678 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo
+2026-10-15 15:38:40.685 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556403281400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.691 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo
+2026-10-15 15:38:40.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon
+2026-10-15 15:38:40.718 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556432047300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.720 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon
+2026-10-15 15:38:40.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT
+2026-10-15 15:38:40.734 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556450960400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT
+2026-10-15 15:38:40.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon
+2026-10-15 15:38:40.748 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556466720000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon
+2026-10-15 15:38:40.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.755 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop
+2026-10-15 15:38:40.760 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556480070100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop
+2026-10-15 15:38:40.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT
+2026-10-15 15:38:40.772 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556492036400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT
+2026-10-15 15:38:40.778 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.779 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh
+2026-10-15 15:38:40.784 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556503700200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.786 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh
+2026-10-15 15:38:40.802 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.803 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh
+2026-10-15 15:38:40.809 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556528118300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.811 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh
+2026-10-15 15:38:40.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH
+2026-10-15 15:38:40.821 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556540023500.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.824 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH
+2026-10-15 15:38:40.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu
+2026-10-15 15:38:40.835 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556554031800.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu
+2026-10-15 15:38:40.843 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.843 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron
+2026-10-15 15:38:40.850 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556567621100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.851 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron
+2026-10-15 15:38:40.856 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-15 15:38:40.856 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc
+2026-10-15 15:38:40.860 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556580395900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+2026-10-15 15:38:40.862 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc
+2026-10-15 15:38:40.912 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-15 15:38:40.912 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_02_Attributes
+2026-10-15 15:38:40.912 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

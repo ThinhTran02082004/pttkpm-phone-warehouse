@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_110: Tạo Khách hàng với Số điện thoại chứa ký tự chữ</description>
+   <name>TC_110_TaoKhachHangVoiSoDienThoaiChua</name>
+   <tag>Khách hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0110-4000-8000-000000000110</testCaseGuid>
+</TestCaseEntity>

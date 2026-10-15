@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_012: Chặn truy cập trực tiếp đường dẫn /products khi chưa login</description>
+   <name>TC_012_ChanTruyCapTrucTiepDuongDanPro</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0012-4000-8000-000000000012</testCaseGuid>
+</TestCaseEntity>

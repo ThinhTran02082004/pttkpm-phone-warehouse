@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_170: Xuất Báo cáo Tồn kho ra file Excel</description>
+   <name>TC_170_XuatBaoCaoTonKhoRaFileExcel</name>
+   <tag>Báo cáo Thống kê &amp; Dashboard,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0170-4000-8000-000000000170</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_022: Thêm mới thuộc tính ROM với dung lượng hợp lệ</description>
+   <name>TC_022_ThemMoiThuocTinhROMVoiDungLuon</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0022-4000-8000-000000000022</testCaseGuid>
+</TestCaseEntity>

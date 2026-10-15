@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_134: Tạo phiếu dịch vụ khi để trống Mã phiếu</description>
+   <name>TC_134_TaoPhieuDichVuKhiDeTrongMaPhie</name>
+   <tag>Dịch vụ &amp; Bảo hành,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0134-4000-8000-000000000134</testCaseGuid>
+</TestCaseEntity>

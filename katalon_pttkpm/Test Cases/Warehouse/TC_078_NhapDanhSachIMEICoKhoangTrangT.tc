@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_078: Nhập danh sách IMEI có khoảng trắng thừa đầu/cuối</description>
+   <name>TC_078_NhapDanhSachIMEICoKhoangTrangT</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0078-4000-8000-000000000078</testCaseGuid>
+</TestCaseEntity>

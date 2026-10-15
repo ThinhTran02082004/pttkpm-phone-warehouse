@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_030: Xuất danh sách thuộc tính ra file Excel</description>
+   <name>TC_030_XuatDanhSachThuocTinhRaFileExc</name>
+   <tag>Thuộc tính sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0030-4000-8000-000000000030</testCaseGuid>
+</TestCaseEntity>

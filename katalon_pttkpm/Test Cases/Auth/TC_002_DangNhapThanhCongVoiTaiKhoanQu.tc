@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_002: Đăng nhập thành công với tài khoản Quản lý kho</description>
+   <name>TC_002_DangNhapThanhCongVoiTaiKhoanQu</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0002-4000-8000-000000000002</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_158: Tạo Tài khoản với Tên đăng nhập đã tồn tại</description>
+   <name>TC_158_TaoTaiKhoanVoiTenDangNhapDaTon</name>
+   <tag>Tài khoản,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0158-4000-8000-000000000158</testCaseGuid>
+</TestCaseEntity>

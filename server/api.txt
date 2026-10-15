@@ -1,0 +1,97 @@
+/api/auth
+    /login
+    /register
+    /change-password
+
+/api/roles
+    GET
+    POST
+    PUT
+    DELETE
+    /permissions
+    /:manhomquyen
+    /update-permission
+
+/api/accounts
+    GET
+    POST
+    PUT
+    DELETE
+
+/api/products
+    GET
+    POST
+    PUT
+    DELETE
+    /product-configures
+    /upload-img
+        /:madanhmucsanpham
+
+/api/product-attributes
+    GET
+    POST
+    PUT
+    DELETE
+
+/api/customers
+    GET
+    POST
+    PUT
+    DELETE
+    /:makhachhang
+
+/api/suppliers
+    GET
+    POST
+    PUT
+    DELETE
+    /:manhacungcap
+
+/api/warehouse
+    /import
+        GET
+        POST
+        PUT
+        DELETE
+        /:maphieunhap
+    /export
+        GET
+        POST
+        PUT
+        DELETE
+    /items
+    /free-import
+    /free-export
+    /item-state
+
+/api/configures
+    GET
+    POST
+    PUT
+    DELETE
+    /:madanhmucsanpham
+
+/api/services
+    GET
+    POST
+    PUT
+    DELETE
+
+/api/statistics
+    /overall
+    /suppliers
+    /customers
+    /profits
+        /year
+        /month
+        /date
+    /date
+
+/api/employees
+    GET
+    POST
+    PUT
+    DELETE
+    /no-account
+    /account
+

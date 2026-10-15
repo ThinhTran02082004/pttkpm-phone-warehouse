@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_105: Kiểm tra phân quyền: User không có quyền xuất kho</description>
+   <name>TC_105_KiemTraPhanQuyenUserKhongCoQuy</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0105-4000-8000-000000000105</testCaseGuid>
+</TestCaseEntity>

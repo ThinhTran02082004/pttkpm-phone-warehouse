@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_052: Tạo Biến thể khi chưa chọn cấu hình RAM</description>
+   <name>TC_052_TaoBienTheKhiChuaChonCauHinhRA</name>
+   <tag>Biến thể sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0052-4000-8000-000000000052</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_130: Xuất danh sách Nhà cung cấp ra file Excel</description>
+   <name>TC_130_XuatDanhSachNhaCungCapRaFileEx</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0130-4000-8000-000000000130</testCaseGuid>
+</TestCaseEntity>

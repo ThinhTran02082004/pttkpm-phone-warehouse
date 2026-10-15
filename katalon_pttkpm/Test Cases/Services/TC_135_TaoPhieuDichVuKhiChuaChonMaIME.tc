@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_135: Tạo phiếu dịch vụ khi chưa chọn mã IMEI thiết bị</description>
+   <name>TC_135_TaoPhieuDichVuKhiChuaChonMaIME</name>
+   <tag>Dịch vụ &amp; Bảo hành,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0135-4000-8000-000000000135</testCaseGuid>
+</TestCaseEntity>

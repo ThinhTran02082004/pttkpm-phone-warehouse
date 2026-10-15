@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_116: Ngưng hoạt động một Khách hàng</description>
+   <name>TC_116_NgungHoatDongMotKhachHang</name>
+   <tag>Khách hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0116-4000-8000-000000000116</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
+import com.pttkpm.auth.AuthKeywords
+import com.pttkpm.common.DataGenerator
+import com.pttkpm.common.WebUIHelper
+import com.pttkpm.accounts.AccountKeywords
+
+// TC_158: Tạo Tài khoản với Tên đăng nhập đã tồn tại
+// Phan he: Tài khoản | Do uu tien: P1
+
+AuthKeywords.loginAsAdmin()
+AuthKeywords.navigateTo('/accounts')
+AccountKeywords.createAccount('', '')
+WebUI.delay(1)
+AuthKeywords.logout()
+
+WebUI.closeBrowser()

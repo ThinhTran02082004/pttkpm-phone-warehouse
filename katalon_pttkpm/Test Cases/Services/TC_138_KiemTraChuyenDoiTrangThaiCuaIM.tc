@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_138: Kiểm tra chuyển đổi trạng thái của IMEI sau khi lập phiếu dịch vụ</description>
+   <name>TC_138_KiemTraChuyenDoiTrangThaiCuaIM</name>
+   <tag>Dịch vụ &amp; Bảo hành,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0138-4000-8000-000000000138</testCaseGuid>
+</TestCaseEntity>

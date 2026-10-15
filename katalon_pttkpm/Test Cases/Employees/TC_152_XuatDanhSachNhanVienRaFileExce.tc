@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_152: Xuất danh sách Nhân viên ra file Excel</description>
+   <name>TC_152_XuatDanhSachNhanVienRaFileExce</name>
+   <tag>Nhân viên,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0152-4000-8000-000000000152</testCaseGuid>
+</TestCaseEntity>

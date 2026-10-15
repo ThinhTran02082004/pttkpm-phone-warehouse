@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_093: Xuất kho với mã IMEI đang tiếp nhận bảo hành</description>
+   <name>TC_093_XuatKhoVoiMaIMEIDangTiepNhanBa</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0093-4000-8000-000000000093</testCaseGuid>
+</TestCaseEntity>

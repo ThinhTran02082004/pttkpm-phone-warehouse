@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_104: Kiểm tra định dạng ngày giờ xuất kho trên bảng</description>
+   <name>TC_104_KiemTraDinhDangNgayGioXuatKhoT</name>
+   <tag>Xuất kho &amp; Bán hàng,P3</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0104-4000-8000-000000000104</testCaseGuid>
+</TestCaseEntity>

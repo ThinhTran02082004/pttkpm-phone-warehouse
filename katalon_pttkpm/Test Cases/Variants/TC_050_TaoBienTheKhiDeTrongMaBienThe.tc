@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_050: Tạo Biến thể khi để trống Mã biến thể</description>
+   <name>TC_050_TaoBienTheKhiDeTrongMaBienThe</name>
+   <tag>Biến thể sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0050-4000-8000-000000000050</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_062: Ngưng hoạt động một Biến thể sản phẩm</description>
+   <name>TC_062_NgungHoatDongMotBienTheSanPham</name>
+   <tag>Biến thể sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0062-4000-8000-000000000062</testCaseGuid>
+</TestCaseEntity>

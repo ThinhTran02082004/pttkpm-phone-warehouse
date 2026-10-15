@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_032: Tạo Model sản phẩm kèm upload file ảnh đại diện</description>
+   <name>TC_032_TaoModelSanPhamKemUploadFileAn</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0032-4000-8000-000000000032</testCaseGuid>
+</TestCaseEntity>

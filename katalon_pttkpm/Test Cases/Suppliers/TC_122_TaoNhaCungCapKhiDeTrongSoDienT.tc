@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_122: Tạo Nhà cung cấp khi để trống Số điện thoại</description>
+   <name>TC_122_TaoNhaCungCapKhiDeTrongSoDienT</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0122-4000-8000-000000000122</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_020: Thêm mới thuộc tính RAM với dung lượng hợp lệ</description>
+   <name>TC_020_ThemMoiThuocTinhRAMVoiDungLuon</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0020-4000-8000-000000000020</testCaseGuid>
+</TestCaseEntity>

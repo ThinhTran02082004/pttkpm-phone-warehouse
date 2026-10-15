@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_039: Upload file ảnh sai định dạng (.txt, .pdf)</description>
+   <name>TC_039_UploadFileAnhSaiDinhDangTxtPdf</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0039-4000-8000-000000000039</testCaseGuid>
+</TestCaseEntity>

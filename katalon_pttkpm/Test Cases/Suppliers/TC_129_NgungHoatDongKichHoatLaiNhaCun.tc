@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_129: Ngưng hoạt động / Kích hoạt lại Nhà cung cấp</description>
+   <name>TC_129_NgungHoatDongKichHoatLaiNhaCun</name>
+   <tag>Nhà cung cấp,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0129-4000-8000-000000000129</testCaseGuid>
+</TestCaseEntity>

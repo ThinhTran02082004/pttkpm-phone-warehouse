@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_082: Kiểm tra định dạng hiển thị tiền tệ trên bảng phiếu nhập</description>
+   <name>TC_082_KiemTraDinhDangHienThiTienTeTr</name>
+   <tag>Nhập kho &amp; IMEI,P3</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0082-4000-8000-000000000082</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_167: Xem số liệu tổng quan trên Dashboard vận hành</description>
+   <name>TC_167_XemSoLieuTongQuanTrenDashboard</name>
+   <tag>Báo cáo Thống kê &amp; Dashboard,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0167-4000-8000-000000000167</testCaseGuid>
+</TestCaseEntity>

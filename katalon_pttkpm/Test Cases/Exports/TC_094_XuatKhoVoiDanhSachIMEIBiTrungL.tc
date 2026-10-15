@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_094: Xuất kho với danh sách IMEI bị trùng lặp trong form</description>
+   <name>TC_094_XuatKhoVoiDanhSachIMEIBiTrungL</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0094-4000-8000-000000000094</testCaseGuid>
+</TestCaseEntity>

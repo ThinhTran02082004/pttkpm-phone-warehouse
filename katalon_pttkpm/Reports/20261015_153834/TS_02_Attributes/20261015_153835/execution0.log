@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-15T08:38:40.392467400Z</date>
+  <millis>1792053520392</millis>
+  <nanos>467400</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_02_Attributes</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">TS_02_Attributes</property>
+  <property name="description">Kiem thu Thuoc tinh san pham (TC_016 - TC_030)</property>
+  <property name="id">Test Suites/TS_02_Attributes</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.420414900Z</date>
+  <millis>1792053520420</millis>
+  <nanos>414900</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Trần Đỗ Quốc Thịnh</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Trần Đỗ Quốc Thịnh</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.423942500Z</date>
+  <millis>1792053520423</millis>
+  <nanos>942500</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = PTTKPM_PhoneWarehouse</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">PTTKPM_PhoneWarehouse</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.424943300Z</date>
+  <millis>1792053520424</millis>
+  <nanos>943300</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = trant - Yamato.fpt</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">trant - Yamato.fpt</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.426942400Z</date>
+  <millis>1792053520426</millis>
+  <nanos>942400</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.427943400Z</date>
+  <millis>1792053520427</millis>
+  <nanos>943400</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.51</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.51</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.429455Z</date>
+  <millis>1792053520429</millis>
+  <nanos>455000</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 11.6.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">11.6.0</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.607501700Z</date>
+  <millis>1792053520607</millis>
+  <nanos>501700</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran</property>
+  <property name="description">TC_016: Thêm mới thuộc tính Thương hiệu (Brand) hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_016_ThemMoiThuocTinhThuongHieuBran.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">9c1133c1-29d6-468f-8c6f-cea4fe87553e</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.631437600Z</date>
+  <millis>1792053520631</millis>
+  <nanos>437600</nanos>
+  <sequence>9</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556333293600.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556333293600.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556333293600.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.635439800Z</date>
+  <millis>1792053520635</millis>
+  <nanos>439800</nanos>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.644419800Z</date>
+  <millis>1792053520644</millis>
+  <nanos>419800</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD</property>
+  <property name="description">TC_017: Thêm mới thuộc tính Thương hiệu khi để trống Tên</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_017_ThemMoiThuocTinhThuongHieuKhiD.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P2</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">dd1ed672-66af-4a4d-9c97-0f6890f94d16</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.651750200Z</date>
+  <millis>1792053520651</millis>
+  <nanos>750200</nanos>
+  <sequence>13</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556369419600.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556369419600.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556369419600.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.654748600Z</date>
+  <millis>1792053520654</millis>
+  <nanos>748600</nanos>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.660263700Z</date>
+  <millis>1792053520660</millis>
+  <nanos>263700</nanos>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo</property>
+  <property name="description">TC_018: Thêm mới thuộc tính Xuất xứ (Origin) hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_018_ThemMoiThuocTinhXuatXuOriginHo.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">727c089f-b525-47d2-9520-aabe1dd5edf3</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.667779800Z</date>
+  <millis>1792053520667</millis>
+  <nanos>779800</nanos>
+  <sequence>17</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556384830400.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556384830400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556384830400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.671209300Z</date>
+  <millis>1792053520671</millis>
+  <nanos>209300</nanos>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.678209900Z</date>
+  <millis>1792053520678</millis>
+  <nanos>209900</nanos>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo</property>
+  <property name="description">TC_019: Thêm mới thuộc tính Hệ điều hành (OS) hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_019_ThemMoiThuocTinhHeDieuHanhOSHo.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">2a7a2866-fe5f-444e-aaca-9e751c48931f</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.686524200Z</date>
+  <millis>1792053520686</millis>
+  <nanos>524200</nanos>
+  <sequence>21</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556403281400.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556403281400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556403281400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.692104Z</date>
+  <millis>1792053520692</millis>
+  <nanos>104000</nanos>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.703504Z</date>
+  <millis>1792053520703</millis>
+  <nanos>504000</nanos>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon</property>
+  <property name="description">TC_020: Thêm mới thuộc tính RAM với dung lượng hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_020_ThemMoiThuocTinhRAMVoiDungLuon.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">739001ec-5d3e-40f9-87c4-4163228b2723</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.718120600Z</date>
+  <millis>1792053520718</millis>
+  <nanos>120600</nanos>
+  <sequence>25</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556432047300.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556432047300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556432047300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.721121900Z</date>
+  <millis>1792053520721</millis>
+  <nanos>121900</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.726633Z</date>
+  <millis>1792053520726</millis>
+  <nanos>633000</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT</property>
+  <property name="description">TC_021: Thêm mới thuộc tính RAM khi để trống trường dung lượng</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_021_ThemMoiThuocTinhRAMKhiDeTrongT.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P2</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">67c2cc0d-32a3-48c9-a60d-bbec58f0e729</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.734871700Z</date>
+  <millis>1792053520734</millis>
+  <nanos>871700</nanos>
+  <sequence>29</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556450960400.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556450960400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556450960400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.737882Z</date>
+  <millis>1792053520737</millis>
+  <nanos>882000</nanos>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.742879800Z</date>
+  <millis>1792053520742</millis>
+  <nanos>879800</nanos>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon</property>
+  <property name="description">TC_022: Thêm mới thuộc tính ROM với dung lượng hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_022_ThemMoiThuocTinhROMVoiDungLuon.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">ca2fa9a7-b115-4fae-ba92-ee2aeb07cf3e</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.749516400Z</date>
+  <millis>1792053520749</millis>
+  <nanos>516400</nanos>
+  <sequence>33</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556466720000.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556466720000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556466720000.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.751514900Z</date>
+  <millis>1792053520751</millis>
+  <nanos>514900</nanos>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.755624500Z</date>
+  <millis>1792053520755</millis>
+  <nanos>624500</nanos>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop</property>
+  <property name="description">TC_023: Thêm mới thuộc tính Màu sắc (Color) hợp lệ</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_023_ThemMoiThuocTinhMauSacColorHop.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">2c9f90ec-f9e2-482d-aa7e-c226eaca7d60</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.760629700Z</date>
+  <millis>1792053520760</millis>
+  <nanos>629700</nanos>
+  <sequence>37</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556480070100.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556480070100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556480070100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.762632600Z</date>
+  <millis>1792053520762</millis>
+  <nanos>632600</nanos>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.767808800Z</date>
+  <millis>1792053520767</millis>
+  <nanos>808800</nanos>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT</property>
+  <property name="description">TC_024: Chuyển đổi giữa các loại thuộc tính trong dropdown</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P2</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">b1f6ef2e-4061-4fa9-afe4-0cca9f82b53a</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.772810100Z</date>
+  <millis>1792053520772</millis>
+  <nanos>810100</nanos>
+  <sequence>41</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556492036400.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556492036400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556492036400.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.774811100Z</date>
+  <millis>1792053520774</millis>
+  <nanos>811100</nanos>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.779474300Z</date>
+  <millis>1792053520779</millis>
+  <nanos>474300</nanos>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh</property>
+  <property name="description">TC_025: Chỉnh sửa thông tin tên thuộc tính</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_025_ChinhSuaThongTinTenThuocTinh.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">a8c3f156-fcd5-4543-9d82-92ab1fbdef30</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.785166400Z</date>
+  <millis>1792053520785</millis>
+  <nanos>166400</nanos>
+  <sequence>45</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556503700200.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556503700200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556503700200.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.786671800Z</date>
+  <millis>1792053520786</millis>
+  <nanos>671800</nanos>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.803809600Z</date>
+  <millis>1792053520803</millis>
+  <nanos>809600</nanos>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh</property>
+  <property name="description">TC_026: Hủy chế độ chỉnh sửa thuộc tính</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_026_HuyCheDoChinhSuaThuocTinh.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P2</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">bb9ae080-77fb-44cf-8a32-b56c1300a317</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.810330400Z</date>
+  <millis>1792053520810</millis>
+  <nanos>330400</nanos>
+  <sequence>49</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556528118300.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556528118300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556528118300.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.811330Z</date>
+  <millis>1792053520811</millis>
+  <nanos>330000</nanos>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.815848600Z</date>
+  <millis>1792053520815</millis>
+  <nanos>848600</nanos>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH</property>
+  <property name="description">TC_027: Ngưng hoạt động một thuộc tính đang hoạt động</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_027_NgungHoatDongMotThuocTinhDangH.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">373d0581-4ede-4af4-8c79-0bad4cfa0949</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.821035500Z</date>
+  <millis>1792053520821</millis>
+  <nanos>35500</nanos>
+  <sequence>53</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556540023500.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556540023500.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556540023500.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.824035900Z</date>
+  <millis>1792053520824</millis>
+  <nanos>35900</nanos>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.829552900Z</date>
+  <millis>1792053520829</millis>
+  <nanos>552900</nanos>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu</property>
+  <property name="description">TC_028: Kích hoạt lại một thuộc tính đang ngưng hoạt động</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_028_KichHoatLaiMotThuocTinhDangNgu.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">3c2f3272-340d-4bdf-8785-6d0a269ec35f</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.835068300Z</date>
+  <millis>1792053520835</millis>
+  <nanos>68300</nanos>
+  <sequence>57</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556554031800.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556554031800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556554031800.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.837066800Z</date>
+  <millis>1792053520837</millis>
+  <nanos>66800</nanos>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.843248200Z</date>
+  <millis>1792053520843</millis>
+  <nanos>248200</nanos>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron</property>
+  <property name="description">TC_029: Thêm thuộc tính với mã đã tồn tại trong CSDL</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_029_ThemThuocTinhVoiMaDaTonTaiTron.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P1</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">c3567c33-c4b4-4bdf-9146-6040a193fd5a</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.850285500Z</date>
+  <millis>1792053520850</millis>
+  <nanos>285500</nanos>
+  <sequence>61</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556567621100.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556567621100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556567621100.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.852285500Z</date>
+  <millis>1792053520852</millis>
+  <nanos>285500</nanos>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.856286Z</date>
+  <millis>1792053520856</millis>
+  <nanos>286000</nanos>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="origin"></property>
+  <property name="name">Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc</property>
+  <property name="description">TC_030: Xuất danh sách thuộc tính ra file Excel</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc</property>
+  <property name="source">C:\Users\trant\Downloads\pttkpm\pttkpm\katalon_pttkpm\Test Cases\Attributes\TC_030_XuatDanhSachThuocTinhRaFileExc.tc</property>
+  <property name="tag">Thuộc tính sản phẩm,P2</property>
+  <property name="isOptional">false</property>
+  <property name="uuid">0e27ebe6-96ae-4c05-8e41-53f7c9652d6b</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.861879200Z</date>
+  <millis>1792053520861</millis>
+  <nanos>879200</nanos>
+  <sequence>65</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556580395900.groovy: 1: Unexpected character: &amp;apos;﻿&amp;apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6556580395900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+
+	at org.apache.groovy.parser.antlr4.AstBuilder.collectSyntaxError(AstBuilder.java:4260)
+	at org.apache.groovy.parser.antlr4.AstBuilder.createParsingFailedException(AstBuilder.java:4243)
+	at org.apache.groovy.parser.antlr4.AstBuilder.convertException(AstBuilder.java:242)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildCST(AstBuilder.java:216)
+	at org.apache.groovy.parser.antlr4.AstBuilder.buildAST(AstBuilder.java:250)
+	at org.apache.groovy.parser.antlr4.Antlr4ParserPlugin.buildAST(Antlr4ParserPlugin.java:58)
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:216)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:188)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:115)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:241)
+	at S1015_0.run(S1015_0.groovy:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+Script6556580395900.groovy: 1: Unexpected character: &apos;﻿&apos; @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error
+</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.862879400Z</date>
+  <millis>1792053520862</millis>
+  <nanos>879400</nanos>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="executedKeywords">{}</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-10-15T08:38:40.912893100Z</date>
+  <millis>1792053520912</millis>
+  <nanos>893100</nanos>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_02_Attributes</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

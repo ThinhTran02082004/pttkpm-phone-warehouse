@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_098: Chọn thời điểm bán hàng tùy chỉnh (#export-sold-at)</description>
+   <name>TC_098_ChonThoiDiemBanHangTuyChinhExp</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0098-4000-8000-000000000098</testCaseGuid>
+</TestCaseEntity>

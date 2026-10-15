@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_127: Cập nhật Tên và Email Nhà cung cấp</description>
+   <name>TC_127_CapNhatTenVaEmailNhaCungCap</name>
+   <tag>Nhà cung cấp,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0127-4000-8000-000000000127</testCaseGuid>
+</TestCaseEntity>

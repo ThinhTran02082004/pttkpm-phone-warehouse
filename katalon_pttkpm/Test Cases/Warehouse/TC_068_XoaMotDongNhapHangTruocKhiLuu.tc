@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_068: Xóa một dòng nhập hàng trước khi lưu</description>
+   <name>TC_068_XoaMotDongNhapHangTruocKhiLuu</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0068-4000-8000-000000000068</testCaseGuid>
+</TestCaseEntity>

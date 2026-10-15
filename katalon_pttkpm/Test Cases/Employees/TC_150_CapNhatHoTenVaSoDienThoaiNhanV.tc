@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_150: Cập nhật Họ tên và Số điện thoại Nhân viên</description>
+   <name>TC_150_CapNhatHoTenVaSoDienThoaiNhanV</name>
+   <tag>Nhân viên,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0150-4000-8000-000000000150</testCaseGuid>
+</TestCaseEntity>

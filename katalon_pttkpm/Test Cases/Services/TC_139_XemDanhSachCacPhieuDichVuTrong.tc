@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_139: Xem danh sách các phiếu dịch vụ trong bảng</description>
+   <name>TC_139_XemDanhSachCacPhieuDichVuTrong</name>
+   <tag>Dịch vụ &amp; Bảo hành,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0139-4000-8000-000000000139</testCaseGuid>
+</TestCaseEntity>

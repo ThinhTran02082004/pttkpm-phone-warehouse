@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_038: Tạo Model sản phẩm với Mã model đã tồn tại</description>
+   <name>TC_038_TaoModelSanPhamVoiMaModelDaTon</name>
+   <tag>Model sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0038-4000-8000-000000000038</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_132: Tạo phiếu dịch vụ đổi trả thiết bị (ticket type: return)</description>
+   <name>TC_132_TaoPhieuDichVuDoiTraThietBiTic</name>
+   <tag>Dịch vụ &amp; Bảo hành,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0132-4000-8000-000000000132</testCaseGuid>
+</TestCaseEntity>

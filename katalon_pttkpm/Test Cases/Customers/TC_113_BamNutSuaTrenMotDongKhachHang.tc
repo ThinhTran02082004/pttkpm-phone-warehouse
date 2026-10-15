@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_113: Bấm nút 'Sửa' trên một dòng Khách hàng</description>
+   <name>TC_113_BamNutSuaTrenMotDongKhachHang</name>
+   <tag>Khách hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0113-4000-8000-000000000113</testCaseGuid>
+</TestCaseEntity>

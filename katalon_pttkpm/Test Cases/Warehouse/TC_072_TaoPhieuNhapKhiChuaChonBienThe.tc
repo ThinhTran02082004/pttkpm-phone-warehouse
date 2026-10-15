@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_072: Tạo phiếu nhập khi chưa chọn Biến thể nhập</description>
+   <name>TC_072_TaoPhieuNhapKhiChuaChonBienThe</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0072-4000-8000-000000000072</testCaseGuid>
+</TestCaseEntity>

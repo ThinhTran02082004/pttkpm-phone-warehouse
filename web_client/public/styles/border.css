@@ -1,0 +1,446 @@
+@import url(./variables.css);
+
+/* border */
+/* gray ____________________________________________________________________________________________________ */
+._border-gray-focus-0:focus,
+._border-gray-hover-0:hover,
+._border-gray-0 {
+  color: var(--gray-0);
+}
+
+._border-gray-focus-1:focus,
+._border-gray-hover-1:hover,
+._border-gray-1 {
+  color: var(--gray-1);
+}
+
+._border-gray-focus-2:focus,
+._border-gray-hover-2:hover,
+._border-gray-2 {
+  color: var(--gray-2);
+}
+
+._border-gray-focus-3:focus,
+._border-gray-hover-3:hover,
+._border-gray-3 {
+  color: var(--gray-3);
+}
+
+._border-gray-focus-4:focus,
+._border-gray-hover-4:hover,
+._border-gray-4 {
+  color: var(--gray-4);
+}
+
+._border-gray-focus-5:focus,
+._border-gray-hover-5:hover,
+._border-gray-5 {
+  color: var(--gray-5);
+}
+
+/* red ____________________________________________________________________________________________________ */
+._border-red-focus:focus,
+._border-red-hover:hover,
+._border-red {
+  border: 3px var(--red) solid;
+}
+
+._border-red-focus-0:focus,
+._border-red-hover-0:hover,
+._border-red-0 {
+  border: 3px var(--red-0) solid;
+}
+
+._border-red-focus-1:focus,
+._border-red-hover-1:hover,
+._border-red-1 {
+  border: 3px var(--red-1) solid;
+}
+
+._border-red-focus-2:focus,
+._border-red-hover-2:hover,
+._border-red-2 {
+  border: 3px var(--red-2) solid;
+}
+
+._border-red-focus-3:focus,
+._border-red-hover-3:hover,
+._border-red-3 {
+  border: 3px var(--red-3) solid;
+}
+
+._border-red-focus-4:focus,
+._border-red-hover-4:hover,
+._border-red-4 {
+  border: 3px var(--red-4) solid;
+}
+
+/* orange ____________________________________________________________________________________________________ */
+._border-orange-focus:focus,
+._border-orange-hover:hover,
+._border-orange {
+  border: 3px var(--orange) solid;
+}
+
+._border-orange-focus-0:focus,
+._border-orange-hover-0:hover,
+._border-orange-0 {
+  border: 3px var(--orange-0) solid;
+}
+
+._border-orange-focus-1:focus,
+._border-orange-hover-1:hover,
+._border-orange-1 {
+  border: 3px var(--orange-1) solid;
+}
+
+._border-orange-focus-2:focus,
+._border-orange-hover-2:hover,
+._border-orange-2 {
+  border: 3px var(--orange-2) solid;
+}
+
+._border-orange-focus-3:focus,
+._border-orange-hover-3:hover,
+._border-orange-3 {
+  border: 3px var(--orange-3) solid;
+}
+
+._border-orange-focus-4:focus,
+._border-orange-hover-4:hover,
+._border-orange-4 {
+  border: 3px var(--orange-4) solid;
+}
+
+/* yellow ____________________________________________________________________________________________________ */
+._border-yellow-focus:focus,
+._border-yellow-hover:hover,
+._border-yellow {
+  border: 3px var(--yellow) solid;
+}
+
+._border-yellow-focus-0:focus,
+._border-yellow-hover-0:hover,
+._border-yellow-0 {
+  border: 3px var(--yellow-0) solid;
+}
+
+._border-yellow-focus-1:focus,
+._border-yellow-hover-1:hover,
+._border-yellow-1 {
+  border: 3px var(--yellow-1) solid;
+}
+
+._border-yellow-focus-2:focus,
+._border-yellow-hover-2:hover,
+._border-yellow-2 {
+  border: 3px var(--yellow-2) solid;
+}
+
+._border-yellow-focus-3:focus,
+._border-yellow-hover-3:hover,
+._border-yellow-3 {
+  border: 3px var(--yellow-3) solid;
+}
+
+._border-yellow-focus-4:focus,
+._border-yellow-hover-4:hover,
+._border-yellow-4 {
+  border: 3px var(--yellow-4) solid;
+}
+
+/* green ____________________________________________________________________________________________________ */
+._border-green-focus:focus,
+._border-green-hover:hover,
+._border-green {
+  border: 3px var(--green) solid;
+}
+
+._border-green-focus-0:focus,
+._border-green-hover-0:hover,
+._border-green-0 {
+  border: 3px var(--green-0) solid;
+}
+
+._border-green-focus-1:focus,
+._border-green-hover-1:hover,
+._border-green-1 {
+  border: 3px var(--green-1) solid;
+}
+
+._border-green-focus-2:focus,
+._border-green-hover-2:hover,
+._border-green-2 {
+  border: 3px var(--green-2) solid;
+}
+
+._border-green-focus-3:focus,
+._border-green-hover-3:hover,
+._border-green-3 {
+  border: 3px var(--green-3) solid;
+}
+
+._border-green-focus-4:focus,
+._border-green-hover-4:hover,
+._border-green-4 {
+  border: 3px var(--green-4) solid;
+}
+
+/* cyan ____________________________________________________________________________________________________ */
+._border-cyan-focus:focus,
+._border-cyan-hover:hover,
+._border-cyan {
+  border: 3px var(--cyan) solid;
+}
+
+._border-cyan-focus-0:focus,
+._border-cyan-hover-0:hover,
+._border-cyan-0 {
+  border: 3px var(--cyan-0) solid;
+}
+
+._border-cyan-focus-1:focus,
+._border-cyan-hover-1:hover,
+._border-cyan-1 {
+  border: 3px var(--cyan-1) solid;
+}
+
+._border-cyan-focus-2:focus,
+._border-cyan-hover-2:hover,
+._border-cyan-2 {
+  border: 3px var(--cyan-2) solid;
+}
+
+._border-cyan-focus-3:focus,
+._border-cyan-hover-3:hover,
+._border-cyan-3 {
+  border: 3px var(--cyan-3) solid;
+}
+
+._border-cyan-focus-4:focus,
+._border-cyan-hover-4:hover,
+._border-cyan-4 {
+  border: 3px var(--cyan-4) solid;
+}
+
+/* blue ____________________________________________________________________________________________________ */
+._border-blue-focus:focus,
+._border-blue-hover:hover,
+._border-blue {
+  border: 3px var(--blue) solid;
+}
+
+._border-blue-focus-0:focus,
+._border-blue-hover-0:hover,
+._border-blue-0 {
+  border: 3px var(--blue-0) solid;
+}
+
+._border-blue-focus-1:focus,
+._border-blue-hover-1:hover,
+._border-blue-1 {
+  border: 3px var(--blue-1) solid;
+}
+
+._border-blue-focus-2:focus,
+._border-blue-hover-2:hover,
+._border-blue-2 {
+  border: 3px var(--blue-2) solid;
+}
+
+._border-blue-focus-3:focus,
+._border-blue-hover-3:hover,
+._border-blue-3 {
+  border: 3px var(--blue-3) solid;
+}
+
+._border-blue-focus-4:focus,
+._border-blue-hover-4:hover,
+._border-blue-4 {
+  border: 3px var(--blue-4) solid;
+}
+
+/* purple ____________________________________________________________________________________________________ */
+._border-purple-focus:focus,
+._border-purple-hover:hover,
+._border-purple {
+  border: 3px var(--purple) solid;
+}
+
+._border-purple-focus-0:focus,
+._border-purple-hover-0:hover,
+._border-purple-0 {
+  border: 3px var(--purple-0) solid;
+}
+
+._border-purple-focus-1:focus,
+._border-purple-hover-1:hover,
+._border-purple-1 {
+  border: 3px var(--purple-1) solid;
+}
+
+._border-purple-focus-2:focus,
+._border-purple-hover-2:hover,
+._border-purple-2 {
+  border: 3px var(--purple-2) solid;
+}
+
+._border-purple-focus-3:focus,
+._border-purple-hover-3:hover,
+._border-purple-3 {
+  border: 3px var(--purple-3) solid;
+}
+
+._border-purple-focus-4:focus,
+._border-purple-hover-4:hover,
+._border-purple-4 {
+  border: 3px var(--purple-4) solid;
+}
+
+/* purple ____________________________________________________________________________________________________ */
+._border-pink-focus:focus,
+._border-pink-hover:hover,
+._border-pink {
+  border: 3px var(--pink) solid;
+}
+
+._border-pink-focus-0:focus,
+._border-pink-hover-0:hover,
+._border-pink-0 {
+  border: 3px var(--pink-0) solid;
+}
+
+._border-pink-focus-1:focus,
+._border-pink-hover-1:hover,
+._border-pink-1 {
+  border: 3px var(--pink-1) solid;
+}
+
+._border-pink-focus-2:focus,
+._border-pink-hover-2:hover,
+._border-pink-2 {
+  border: 3px var(--pink-2) solid;
+}
+
+._border-pink-focus-3:focus,
+._border-pink-hover-3:hover,
+._border-pink-3 {
+  border: 3px var(--pink-3) solid;
+}
+
+._border-pink-focus-4:focus,
+._border-pink-hover-4:hover,
+._border-pink-4 {
+  border: 3px var(--pink-4) solid;
+}
+
+._border-gray-focus-0,
+._border-gray-focus-1,
+._border-gray-focus-2,
+._border-gray-focus-3,
+._border-gray-focus-4,
+._border-gray-focus-5,
+._border-red-focus,
+._border-red-focus-0,
+._border-red-focus-1,
+._border-red-focus-2,
+._border-red-focus-3,
+._border-red-focus-4,
+._border-orange-focus,
+._border-orange-focus-0,
+._border-orange-focus-1,
+._border-orange-focus-2,
+._border-orange-focus-3,
+._border-orange-focus-4,
+._border-yellow-focus,
+._border-yellow-focus-0,
+._border-yellow-focus-1,
+._border-yellow-focus-2,
+._border-yellow-focus-3,
+._border-yellow-focus-4,
+._border-green-focus,
+._border-green-focus-0,
+._border-green-focus-1,
+._border-green-focus-2,
+._border-green-focus-3,
+._border-green-focus-4,
+._border-cyan-focus,
+._border-cyan-focus-0,
+._border-cyan-focus-1,
+._border-cyan-focus-2,
+._border-cyan-focus-3,
+._border-cyan-focus-4,
+._border-blue-focus,
+._border-blue-focus-0,
+._border-blue-focus-1,
+._border-blue-focus-2,
+._border-blue-focus-3,
+._border-blue-focus-4,
+._border-purple-focus,
+._border-purple-focus-0,
+._border-purple-focus-1,
+._border-purple-focus-2,
+._border-purple-focus-3,
+._border-purple-focus-4,
+._border-pink-focus,
+._border-pink-focus-0,
+._border-pink-focus-1,
+._border-pink-focus-2,
+._border-pink-focus-3,
+._border-pink-focus-4,
+._border-gray-hover-0,
+._border-gray-hover-1,
+._border-gray-hover-2,
+._border-gray-hover-3,
+._border-gray-hover-4,
+._border-gray-hover-5,
+._border-red-hover,
+._border-red-hover-0,
+._border-red-hover-1,
+._border-red-hover-2,
+._border-red-hover-3,
+._border-red-hover-4,
+._border-orange-hover,
+._border-orange-hover-0,
+._border-orange-hover-1,
+._border-orange-hover-2,
+._border-orange-hover-3,
+._border-orange-hover-4,
+._border-yellow-hover,
+._border-yellow-hover-0,
+._border-yellow-hover-1,
+._border-yellow-hover-2,
+._border-yellow-hover-3,
+._border-yellow-hover-4,
+._border-green-hover,
+._border-green-hover-0,
+._border-green-hover-1,
+._border-green-hover-2,
+._border-green-hover-3,
+._border-green-hover-4,
+._border-cyan-hover,
+._border-cyan-hover-0,
+._border-cyan-hover-1,
+._border-cyan-hover-2,
+._border-cyan-hover-3,
+._border-cyan-hover-4,
+._border-blue-hover,
+._border-blue-hover-0,
+._border-blue-hover-1,
+._border-blue-hover-2,
+._border-blue-hover-3,
+._border-blue-hover-4,
+._border-purple-hover,
+._border-purple-hover-0,
+._border-purple-hover-1,
+._border-purple-hover-2,
+._border-purple-hover-3,
+._border-purple-hover-4,
+._border-pink-hover,
+._border-pink-hover-0,
+._border-pink-hover-1,
+._border-pink-hover-2,
+._border-pink-hover-3,
+._border-pink-hover-4 {
+  border: 3px #00000000 solid;
+}

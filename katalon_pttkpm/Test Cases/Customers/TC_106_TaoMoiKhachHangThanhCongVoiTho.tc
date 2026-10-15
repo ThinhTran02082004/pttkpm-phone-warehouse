@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_106: Tạo mới Khách hàng thành công với thông tin hợp lệ</description>
+   <name>TC_106_TaoMoiKhachHangThanhCongVoiTho</name>
+   <tag>Khách hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0106-4000-8000-000000000106</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_046: Xuất danh sách Model sản phẩm ra file Excel</description>
+   <name>TC_046_XuatDanhSachModelSanPhamRaFile</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0046-4000-8000-000000000046</testCaseGuid>
+</TestCaseEntity>

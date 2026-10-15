@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_120: Tạo Nhà cung cấp khi để trống Mã nhà cung cấp</description>
+   <name>TC_120_TaoNhaCungCapKhiDeTrongMaNhaCu</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0120-4000-8000-000000000120</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_045: Kiểm tra hiển thị ảnh thumbnail trong bảng Model</description>
+   <name>TC_045_KiemTraHienThiAnhThumbnailTron</name>
+   <tag>Model sản phẩm,P3</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0045-4000-8000-000000000045</testCaseGuid>
+</TestCaseEntity>

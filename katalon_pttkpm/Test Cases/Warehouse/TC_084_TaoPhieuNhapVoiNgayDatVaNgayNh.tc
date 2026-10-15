@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_084: Tạo phiếu nhập với ngày đặt và ngày nhận tùy chỉnh</description>
+   <name>TC_084_TaoPhieuNhapVoiNgayDatVaNgayNh</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0084-4000-8000-000000000084</testCaseGuid>
+</TestCaseEntity>

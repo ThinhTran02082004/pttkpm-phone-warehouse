@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Đồ án kiểm thử tự động hệ thống Quản lý Kho Hàng Điện Thoại bằng Katalon Studio (Script Mode - Groovy)</description>
+   <name>PTTKPM_PhoneWarehouse</name>
+   <tag></tag>
+   <UUID>d9e3381a-6415-4fa8-b2ef-37a5e8400001</UUID>
+   <freeLicense>false</freeLicense>
+   <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.3.0</modifiedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation></projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderUrl>Include/scripts/groovy</sourceFolderUrl>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <timeStampOfCreated>1710000000000</timeStampOfCreated>
+   <type>WEB</type>
+</Project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_014: Kiểm tra nút Thu gọn / Mở rộng Sidebar</description>
+   <name>TC_014_KiemTraNutThuGonMoRongSidebar</name>
+   <tag>Xác thực &amp; Điều hướng,P3</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0014-4000-8000-000000000014</testCaseGuid>
+</TestCaseEntity>

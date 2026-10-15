@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_107: Tạo Khách hàng khi để trống Mã khách hàng</description>
+   <name>TC_107_TaoKhachHangKhiDeTrongMaKhachH</name>
+   <tag>Khách hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0107-4000-8000-000000000107</testCaseGuid>
+</TestCaseEntity>

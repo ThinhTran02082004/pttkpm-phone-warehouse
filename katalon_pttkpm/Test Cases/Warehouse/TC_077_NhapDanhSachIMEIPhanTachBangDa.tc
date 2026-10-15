@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_077: Nhập danh sách IMEI phân tách bằng dấu phẩy</description>
+   <name>TC_077_NhapDanhSachIMEIPhanTachBangDa</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0077-4000-8000-000000000077</testCaseGuid>
+</TestCaseEntity>

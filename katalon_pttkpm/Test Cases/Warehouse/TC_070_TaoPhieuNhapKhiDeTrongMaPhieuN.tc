@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_070: Tạo phiếu nhập khi để trống Mã phiếu nhập</description>
+   <name>TC_070_TaoPhieuNhapKhiDeTrongMaPhieuN</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0070-4000-8000-000000000070</testCaseGuid>
+</TestCaseEntity>

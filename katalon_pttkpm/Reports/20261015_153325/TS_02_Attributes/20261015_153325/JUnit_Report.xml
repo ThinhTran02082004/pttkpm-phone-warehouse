@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_02_Attributes" time="0.482" tests="15" passed="0" failures="0" errors="15" incompleted="0" skipped="0">
+   <testsuite name="TS_02_Attributes" tests="15" passed="0" failures="0" errors="15" incompleted="0" skipped="0" time="0.482" timestamp="2026-10-15T08:33:31.102Z" hostname="trant - Yamato.fpt" id="Test Suites/TS_02_Attributes" status="ERROR">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\trant\\Downloads\\pttkpm\\pttkpm\\katalon_pttkpm\\Reports\\20261015_153325\\TS_02_Attributes\\20261015_153325"/>
+         <property name="logFiles" value="C:\\Users\\trant\\Downloads\\pttkpm\\pttkpm\\katalon_pttkpm\\Reports\\20261015_153325\\TS_02_Attributes\\20261015_153325\\console0.log, C:\\Users\\trant\\Downloads\\pttkpm\\pttkpm\\katalon_pttkpm\\Reports\\20261015_153325\\TS_02_Attributes\\20261015_153325\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="userFullName" value="Trần Đỗ Quốc Thịnh"/>
+         <property name="hostName" value="trant - Yamato.fpt"/>
+         <property name="hostAddress" value="192.168.1.51"/>
+         <property name="projectName" value="PTTKPM_PhoneWarehouse"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.6.0"/>
+      </properties>
+      <testcase name="Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran" time="0.034" classname="Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247035369300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran: Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247035369300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran: Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247035369300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD" time="0.013" classname="Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD" status="ERROR" tag="Thuộc tính sản phẩm,P2">
+         <error type="ERROR" message="Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247080619100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD: Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247080619100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD: Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247080619100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo" time="0.013" classname="Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247098652300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo: Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247098652300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo: Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247098652300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo" time="0.01" classname="Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247116548400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo: Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247116548400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo: Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247116548400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon" time="0.012" classname="Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247134120500.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon: Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247134120500.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon: Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247134120500.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT" time="0.01" classname="Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT" status="ERROR" tag="Thuộc tính sản phẩm,P2">
+         <error type="ERROR" message="Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247151643200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT: Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247151643200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT: Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247151643200.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon" time="0.02" classname="Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247167750700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon: Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247167750700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon: Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247167750700.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop" time="0.006" classname="Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247193011900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop: Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247193011900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop: Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247193011900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT" time="0.007" classname="Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT" status="ERROR" tag="Thuộc tính sản phẩm,P2">
+         <error type="ERROR" message="Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247205782600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT: Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247205782600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT: Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247205782600.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh" time="0.007" classname="Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247216706300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh: Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247216706300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh: Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247216706300.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh" time="0.01" classname="Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh" status="ERROR" tag="Thuộc tính sản phẩm,P2">
+         <error type="ERROR" message="Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247229396000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh: Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247229396000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh: Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247229396000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH" time="0.021" classname="Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247244371400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH: Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247244371400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH: Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247244371400.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu" time="0.009" classname="Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247274498000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu: Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247274498000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu: Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247274498000.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron" time="0.007" classname="Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron" status="ERROR" tag="Thuộc tính sản phẩm,P1">
+         <error type="ERROR" message="Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247287888900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron: Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247287888900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron: Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247287888900.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc" time="0.008" classname="Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc" status="ERROR" tag="Thuộc tính sản phẩm,P2">
+         <error type="ERROR" message="Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc has ERROR(s).&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;Script6247300954100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.&#xa;   ﻿import com.kms.katalon.core.model.FailureHandling&#xa;   ^&#xa;&#xa;1 error&#xa;"/>
+         <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc: Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247300954100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_CASE][ERROR] - Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc: Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script6247300954100.groovy: 1: Unexpected character: '﻿' @ line 1, column 1.
+   ﻿import com.kms.katalon.core.model.FailureHandling
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-10-2026T15:33:31 - [TEST_SUITE][ERROR] - TS_02_Attributes: null]]></system-out>
+      <system-err><![CDATA[15-10-2026T15:33:31 - [TEST_SUITE][ERROR] - TS_02_Attributes: null]]></system-err>
+   </testsuite>
+</testsuites>

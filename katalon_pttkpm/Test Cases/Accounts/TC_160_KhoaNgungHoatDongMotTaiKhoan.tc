@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_160: Khóa (Ngưng hoạt động) một Tài khoản</description>
+   <name>TC_160_KhoaNgungHoatDongMotTaiKhoan</name>
+   <tag>Tài khoản,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0160-4000-8000-000000000160</testCaseGuid>
+</TestCaseEntity>

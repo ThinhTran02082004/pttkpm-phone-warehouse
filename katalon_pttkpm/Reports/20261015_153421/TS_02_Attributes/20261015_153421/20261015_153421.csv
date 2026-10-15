@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02_Attributes,,Kiem thu Thuoc tinh san pham (TC_016 - TC_030),,15-10-2026 15:34:25,15-10-2026 15:34:26,0.455s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_016_ThemMoiThuocTinhThuongHieuBran,,TC_016: Thêm mới thuộc tính Thương hiệu (Brand) hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.030s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_017_ThemMoiThuocTinhThuongHieuKhiD,,TC_017: Thêm mới thuộc tính Thương hiệu khi để trống Tên,"Thuộc tính sản phẩm,P2",15-10-2026 15:34:26,15-10-2026 15:34:26,0.008s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_018_ThemMoiThuocTinhXuatXuOriginHo,,TC_018: Thêm mới thuộc tính Xuất xứ (Origin) hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.010s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_019_ThemMoiThuocTinhHeDieuHanhOSHo,,TC_019: Thêm mới thuộc tính Hệ điều hành (OS) hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.025s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_020_ThemMoiThuocTinhRAMVoiDungLuon,,TC_020: Thêm mới thuộc tính RAM với dung lượng hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.010s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_021_ThemMoiThuocTinhRAMKhiDeTrongT,,TC_021: Thêm mới thuộc tính RAM khi để trống trường dung lượng,"Thuộc tính sản phẩm,P2",15-10-2026 15:34:26,15-10-2026 15:34:26,0.009s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_022_ThemMoiThuocTinhROMVoiDungLuon,,TC_022: Thêm mới thuộc tính ROM với dung lượng hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.009s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_023_ThemMoiThuocTinhMauSacColorHop,,TC_023: Thêm mới thuộc tính Màu sắc (Color) hợp lệ,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.008s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT,,TC_024: Chuyển đổi giữa các loại thuộc tính trong dropdown,"Thuộc tính sản phẩm,P2",15-10-2026 15:34:26,15-10-2026 15:34:26,0.008s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_025_ChinhSuaThongTinTenThuocTinh,,TC_025: Chỉnh sửa thông tin tên thuộc tính,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.007s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_026_HuyCheDoChinhSuaThuocTinh,,TC_026: Hủy chế độ chỉnh sửa thuộc tính,"Thuộc tính sản phẩm,P2",15-10-2026 15:34:26,15-10-2026 15:34:26,0.007s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_027_NgungHoatDongMotThuocTinhDangH,,TC_027: Ngưng hoạt động một thuộc tính đang hoạt động,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.006s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_028_KichHoatLaiMotThuocTinhDangNgu,,TC_028: Kích hoạt lại một thuộc tính đang ngưng hoạt động,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.006s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_029_ThemThuocTinhVoiMaDaTonTaiTron,,TC_029: Thêm thuộc tính với mã đã tồn tại trong CSDL,"Thuộc tính sản phẩm,P1",15-10-2026 15:34:26,15-10-2026 15:34:26,0.007s,ERROR
+,,,,,,,
+Test Cases/Attributes/TC_030_XuatDanhSachThuocTinhRaFileExc,,TC_030: Xuất danh sách thuộc tính ra file Excel,"Thuộc tính sản phẩm,P2",15-10-2026 15:34:26,15-10-2026 15:34:26,0.007s,ERROR

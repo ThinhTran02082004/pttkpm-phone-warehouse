@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_114: Cập nhật Tên và Số điện thoại Khách hàng</description>
+   <name>TC_114_CapNhatTenVaSoDienThoaiKhachHa</name>
+   <tag>Khách hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0114-4000-8000-000000000114</testCaseGuid>
+</TestCaseEntity>

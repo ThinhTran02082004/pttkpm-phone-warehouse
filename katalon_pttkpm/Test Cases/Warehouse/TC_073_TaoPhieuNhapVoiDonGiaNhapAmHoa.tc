@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_073: Tạo phiếu nhập với Đơn giá nhập âm hoặc bằng 0</description>
+   <name>TC_073_TaoPhieuNhapVoiDonGiaNhapAmHoa</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0073-4000-8000-000000000073</testCaseGuid>
+</TestCaseEntity>

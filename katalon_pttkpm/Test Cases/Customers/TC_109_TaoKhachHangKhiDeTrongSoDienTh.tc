@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_109: Tạo Khách hàng khi để trống Số điện thoại</description>
+   <name>TC_109_TaoKhachHangKhiDeTrongSoDienTh</name>
+   <tag>Khách hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0109-4000-8000-000000000109</testCaseGuid>
+</TestCaseEntity>

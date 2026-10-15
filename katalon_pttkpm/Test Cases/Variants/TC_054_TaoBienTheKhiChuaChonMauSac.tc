@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_054: Tạo Biến thể khi chưa chọn Màu sắc</description>
+   <name>TC_054_TaoBienTheKhiChuaChonMauSac</name>
+   <tag>Biến thể sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0054-4000-8000-000000000054</testCaseGuid>
+</TestCaseEntity>

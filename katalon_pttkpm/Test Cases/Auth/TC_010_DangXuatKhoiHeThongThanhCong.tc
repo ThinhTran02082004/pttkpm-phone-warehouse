@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_010: Đăng xuất khỏi hệ thống thành công</description>
+   <name>TC_010_DangXuatKhoiHeThongThanhCong</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0010-4000-8000-000000000010</testCaseGuid>
+</TestCaseEntity>

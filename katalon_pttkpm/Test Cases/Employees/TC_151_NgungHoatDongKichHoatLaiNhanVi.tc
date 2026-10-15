@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_151: Ngưng hoạt động / Kích hoạt lại Nhân viên</description>
+   <name>TC_151_NgungHoatDongKichHoatLaiNhanVi</name>
+   <tag>Nhân viên,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0151-4000-8000-000000000151</testCaseGuid>
+</TestCaseEntity>

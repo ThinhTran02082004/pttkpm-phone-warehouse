@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_016: Thêm mới thuộc tính Thương hiệu (Brand) hợp lệ</description>
+   <name>TC_016_ThemMoiThuocTinhThuongHieuBran</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0016-4000-8000-000000000016</testCaseGuid>
+</TestCaseEntity>

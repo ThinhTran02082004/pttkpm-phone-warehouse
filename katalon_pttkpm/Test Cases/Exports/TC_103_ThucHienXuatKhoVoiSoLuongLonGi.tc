@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_103: Thực hiện xuất kho với số lượng lớn (giao dịch lớn)</description>
+   <name>TC_103_ThucHienXuatKhoVoiSoLuongLonGi</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0103-4000-8000-000000000103</testCaseGuid>
+</TestCaseEntity>

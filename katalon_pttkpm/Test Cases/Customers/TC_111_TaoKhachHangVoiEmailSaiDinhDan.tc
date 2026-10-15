@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_111: Tạo Khách hàng với Email sai định dạng</description>
+   <name>TC_111_TaoKhachHangVoiEmailSaiDinhDan</name>
+   <tag>Khách hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0111-4000-8000-000000000111</testCaseGuid>
+</TestCaseEntity>

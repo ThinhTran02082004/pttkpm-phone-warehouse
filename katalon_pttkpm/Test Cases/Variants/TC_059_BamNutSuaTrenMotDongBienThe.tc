@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_059: Bấm nút 'Sửa' trên một dòng Biến thể</description>
+   <name>TC_059_BamNutSuaTrenMotDongBienThe</name>
+   <tag>Biến thể sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0059-4000-8000-000000000059</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_101: Kiểm tra đồng bộ danh sách khách hàng trong select xuất kho</description>
+   <name>TC_101_KiemTraDongBoDanhSachKhachHang</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0101-4000-8000-000000000101</testCaseGuid>
+</TestCaseEntity>

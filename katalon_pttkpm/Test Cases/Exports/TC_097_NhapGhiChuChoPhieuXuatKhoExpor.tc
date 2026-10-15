@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_097: Nhập ghi chú cho phiếu xuất kho (#export-notes)</description>
+   <name>TC_097_NhapGhiChuChoPhieuXuatKhoExpor</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0097-4000-8000-000000000097</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_123: Tạo Nhà cung cấp với Số điện thoại sai định dạng</description>
+   <name>TC_123_TaoNhaCungCapVoiSoDienThoaiSai</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0123-4000-8000-000000000123</testCaseGuid>
+</TestCaseEntity>

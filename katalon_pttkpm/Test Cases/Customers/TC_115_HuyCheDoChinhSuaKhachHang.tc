@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_115: Hủy chế độ chỉnh sửa Khách hàng</description>
+   <name>TC_115_HuyCheDoChinhSuaKhachHang</name>
+   <tag>Khách hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0115-4000-8000-000000000115</testCaseGuid>
+</TestCaseEntity>

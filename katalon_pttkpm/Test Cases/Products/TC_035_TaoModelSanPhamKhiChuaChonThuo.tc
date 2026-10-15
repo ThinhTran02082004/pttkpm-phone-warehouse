@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_035: Tạo Model sản phẩm khi chưa chọn Thương hiệu</description>
+   <name>TC_035_TaoModelSanPhamKhiChuaChonThuo</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0035-4000-8000-000000000035</testCaseGuid>
+</TestCaseEntity>

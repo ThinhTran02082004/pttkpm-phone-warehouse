@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_083: Xuất danh sách phiếu nhập kho ra file Excel</description>
+   <name>TC_083_XuatDanhSachPhieuNhapKhoRaFile</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0083-4000-8000-000000000083</testCaseGuid>
+</TestCaseEntity>

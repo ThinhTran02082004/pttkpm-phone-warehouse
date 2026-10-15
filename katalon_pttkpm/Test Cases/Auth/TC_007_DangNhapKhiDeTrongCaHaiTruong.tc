@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_007: Đăng nhập khi để trống cả hai trường</description>
+   <name>TC_007_DangNhapKhiDeTrongCaHaiTruong</name>
+   <tag>Xác thực &amp; Điều hướng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0007-4000-8000-000000000007</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_161: Xem danh sách các Vai trò mặc định hệ thống</description>
+   <name>TC_161_XemDanhSachCacVaiTroMacDinhHeT</name>
+   <tag>Vai trò &amp; Phân quyền,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0161-4000-8000-000000000161</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_131: Tạo phiếu dịch vụ bảo hành hợp lệ cho thiết bị</description>
+   <name>TC_131_TaoPhieuDichVuBaoHanhHopLeChoT</name>
+   <tag>Dịch vụ &amp; Bảo hành,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0131-4000-8000-000000000131</testCaseGuid>
+</TestCaseEntity>

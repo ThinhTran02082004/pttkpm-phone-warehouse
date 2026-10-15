@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_080: Kiểm tra số lượng IMEI và Tổng tiền hiển thị trên bảng</description>
+   <name>TC_080_KiemTraSoLuongIMEIVaTongTienHi</name>
+   <tag>Nhập kho &amp; IMEI,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0080-4000-8000-000000000080</testCaseGuid>
+</TestCaseEntity>

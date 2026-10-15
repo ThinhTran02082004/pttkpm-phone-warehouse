@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_001: Đăng nhập thành công với tài khoản Admin</description>
+   <name>TC_001_LoginSuccessAdmin</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0001-4000-8000-000000000001</testCaseGuid>
+</TestCaseEntity>

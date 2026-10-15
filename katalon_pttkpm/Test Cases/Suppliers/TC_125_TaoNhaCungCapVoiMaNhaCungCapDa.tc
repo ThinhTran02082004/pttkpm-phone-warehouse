@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_125: Tạo Nhà cung cấp với Mã nhà cung cấp đã tồn tại</description>
+   <name>TC_125_TaoNhaCungCapVoiMaNhaCungCapDa</name>
+   <tag>Nhà cung cấp,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0125-4000-8000-000000000125</testCaseGuid>
+</TestCaseEntity>

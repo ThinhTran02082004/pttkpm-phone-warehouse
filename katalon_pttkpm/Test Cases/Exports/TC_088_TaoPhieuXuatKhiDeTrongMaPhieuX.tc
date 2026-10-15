@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_088: Tạo phiếu xuất khi để trống Mã phiếu xuất</description>
+   <name>TC_088_TaoPhieuXuatKhiDeTrongMaPhieuX</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0088-4000-8000-000000000088</testCaseGuid>
+</TestCaseEntity>

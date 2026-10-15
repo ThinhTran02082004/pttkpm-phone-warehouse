@@ -1,0 +1,1 @@
+// dynamsoft.config.js đã được xóa toàn bộ nội dung. Nếu cần barcode, hãy thêm lại sau.

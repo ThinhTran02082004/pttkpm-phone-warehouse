@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "xpath\u003d(//button[@type\u003d\u0027button\u0027])[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/_XPATH.png"
+    }
+  ]
+}

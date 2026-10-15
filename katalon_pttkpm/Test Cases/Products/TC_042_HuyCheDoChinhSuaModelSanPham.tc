@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_042: Hủy chế độ chỉnh sửa Model sản phẩm</description>
+   <name>TC_042_HuyCheDoChinhSuaModelSanPham</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0042-4000-8000-000000000042</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_079: Nhập ghi chú cho phiếu nhập kho</description>
+   <name>TC_079_NhapGhiChuChoPhieuNhapKho</name>
+   <tag>Nhập kho &amp; IMEI,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0079-4000-8000-000000000079</testCaseGuid>
+</TestCaseEntity>

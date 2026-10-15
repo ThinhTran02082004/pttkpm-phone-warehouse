@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_149: Bấm nút 'Sửa' trên một dòng Nhân viên</description>
+   <name>TC_149_BamNutSuaTrenMotDongNhanVien</name>
+   <tag>Nhân viên,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0149-4000-8000-000000000149</testCaseGuid>
+</TestCaseEntity>

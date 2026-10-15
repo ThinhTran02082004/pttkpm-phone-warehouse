@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_154: Tạo Tài khoản khi chưa chọn Nhân viên liên kết</description>
+   <name>TC_154_TaoTaiKhoanKhiChuaChonNhanVien</name>
+   <tag>Tài khoản,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0154-4000-8000-000000000154</testCaseGuid>
+</TestCaseEntity>

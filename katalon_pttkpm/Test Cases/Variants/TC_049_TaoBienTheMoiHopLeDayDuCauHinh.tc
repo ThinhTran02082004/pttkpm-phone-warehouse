@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_049: Tạo Biến thể mới hợp lệ đầy đủ cấu hình kỹ thuật</description>
+   <name>TC_049_TaoBienTheMoiHopLeDayDuCauHinh</name>
+   <tag>Biến thể sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0049-4000-8000-000000000049</testCaseGuid>
+</TestCaseEntity>

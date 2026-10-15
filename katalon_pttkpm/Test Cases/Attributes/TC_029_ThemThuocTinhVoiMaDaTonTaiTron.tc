@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_029: Thêm thuộc tính với mã đã tồn tại trong CSDL</description>
+   <name>TC_029_ThemThuocTinhVoiMaDaTonTaiTron</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0029-4000-8000-000000000029</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,104 @@
+{
+  "keywordFileContentHash": "0DE6866AA8D59DA09398BCD4EC96FCC6",
+  "keywordClasses": [
+    {
+      "name": "com.pttkpm.auth.AuthKeywords",
+      "keywordMethods": [
+        {
+          "name": "loginAsAdmin",
+          "parameters": [],
+          "javadoc": "/**\r\n     * Khởi động trình duyệt và đăng nhập với tài khoản Quản trị viên (Admin)\r\n     */"
+        },
+        {
+          "name": "loginWith",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Đăng nhập với tài khoản và mật khẩu tùy chỉnh\r\n     */"
+        },
+        {
+          "name": "submitLoginForm",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Gửi form đăng nhập nhưng KHÔNG yêu cầu thành công (dùng cho test sai mật khẩu, bỏ trống...)\r\n     */"
+        },
+        {
+          "name": "logout",
+          "parameters": [],
+          "javadoc": "/**\r\n     * Đăng xuất khỏi hệ thống\r\n     */"
+        },
+        {
+          "name": "navigateTo",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Điều hướng nhanh đến phân hệ theo path (ví dụ: \u0027/employees\u0027, \u0027/imports\u0027)\r\n     */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

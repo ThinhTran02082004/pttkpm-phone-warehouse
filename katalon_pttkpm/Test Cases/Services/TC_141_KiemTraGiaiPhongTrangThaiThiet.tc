@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_141: Kiểm tra giải phóng trạng thái thiết bị sau khi hoàn thành dịch vụ</description>
+   <name>TC_141_KiemTraGiaiPhongTrangThaiThiet</name>
+   <tag>Dịch vụ &amp; Bảo hành,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0141-4000-8000-000000000141</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+{
+  "name": "pttkpm-rebuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && cd server && npm install && cd ..\\web_client && npm install",
+    "install:server": "cd server && npm install",
+    "install:client": "cd web_client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd web_client && npm start",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Phone warehouse management system rebuild workspace",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "dotenv": "^16.4.5"
+  }
+}

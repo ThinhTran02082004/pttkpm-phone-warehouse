@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_033: Tạo Model sản phẩm khi để trống Mã model</description>
+   <name>TC_033_TaoModelSanPhamKhiDeTrongMaMod</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0033-4000-8000-000000000033</testCaseGuid>
+</TestCaseEntity>

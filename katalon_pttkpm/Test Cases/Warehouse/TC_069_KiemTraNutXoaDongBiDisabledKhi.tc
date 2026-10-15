@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_069: Kiểm tra nút 'Xóa dòng' bị disabled khi chỉ có 1 dòng</description>
+   <name>TC_069_KiemTraNutXoaDongBiDisabledKhi</name>
+   <tag>Nhập kho &amp; IMEI,P3</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0069-4000-8000-000000000069</testCaseGuid>
+</TestCaseEntity>

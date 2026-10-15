@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_163: Tạo Vai trò khi để trống Mã hoặc Tên vai trò</description>
+   <name>TC_163_TaoVaiTroKhiDeTrongMaHoacTenVa</name>
+   <tag>Vai trò &amp; Phân quyền,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0163-4000-8000-000000000163</testCaseGuid>
+</TestCaseEntity>

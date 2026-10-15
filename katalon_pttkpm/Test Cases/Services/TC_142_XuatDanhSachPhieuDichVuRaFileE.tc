@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_142: Xuất danh sách phiếu dịch vụ ra file Excel</description>
+   <name>TC_142_XuatDanhSachPhieuDichVuRaFileE</name>
+   <tag>Dịch vụ &amp; Bảo hành,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0142-4000-8000-000000000142</testCaseGuid>
+</TestCaseEntity>

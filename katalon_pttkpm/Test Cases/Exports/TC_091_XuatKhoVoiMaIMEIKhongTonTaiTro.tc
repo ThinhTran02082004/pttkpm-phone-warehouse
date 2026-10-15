@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_091: Xuất kho với mã IMEI không tồn tại trong hệ thống</description>
+   <name>TC_091_XuatKhoVoiMaIMEIKhongTonTaiTro</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0091-4000-8000-000000000091</testCaseGuid>
+</TestCaseEntity>

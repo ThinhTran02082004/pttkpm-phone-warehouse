@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_067: Tạo phiếu nhập kho với nhiều dòng nhập hàng</description>
+   <name>TC_067_TaoPhieuNhapKhoVoiNhieuDongNha</name>
+   <tag>Nhập kho &amp; IMEI,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0067-4000-8000-000000000067</testCaseGuid>
+</TestCaseEntity>

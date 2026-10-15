@@ -1,0 +1,78 @@
+{
+  "keywordFileContentHash": "9B877C98A74959EBDC7492CAAC002F35",
+  "keywordClasses": [
+    {
+      "name": "com.pttkpm.common.DataGenerator",
+      "keywordMethods": [
+        {
+          "name": "generateRandomIMEI",
+          "parameters": [],
+          "javadoc": "/**\r\n     * Sinh số IMEI ngẫu nhiên 15 chữ số hợp lệ cho thiết bị di động\r\n     */"
+        },
+        {
+          "name": "generateIMEIList",
+          "parameters": [
+            {
+              "name": "count",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Sinh danh sách nhiều số IMEI ngăn cách bằng dấu xuống dòng để nhập kho\r\n     */"
+        },
+        {
+          "name": "generateRandomPhone",
+          "parameters": [],
+          "javadoc": "/**\r\n     * Sinh số điện thoại Việt Nam ngẫu nhiên 10 số (bắt đầu bằng 09...)\r\n     */"
+        },
+        {
+          "name": "generateRandomEmail",
+          "parameters": [
+            {
+              "name": "prefix",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Sinh email ngẫu nhiên hợp lệ\r\n     */"
+        },
+        {
+          "name": "generateRandomCode",
+          "parameters": [
+            {
+              "name": "prefix",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Sinh mã định danh ngẫu nhiên (VD: EMP_12345, IMP_67890)\r\n     */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

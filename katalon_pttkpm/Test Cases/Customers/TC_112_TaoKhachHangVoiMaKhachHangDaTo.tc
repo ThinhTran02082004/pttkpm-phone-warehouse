@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_112: Tạo Khách hàng với Mã khách hàng đã tồn tại</description>
+   <name>TC_112_TaoKhachHangVoiMaKhachHangDaTo</name>
+   <tag>Khách hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0112-4000-8000-000000000112</testCaseGuid>
+</TestCaseEntity>

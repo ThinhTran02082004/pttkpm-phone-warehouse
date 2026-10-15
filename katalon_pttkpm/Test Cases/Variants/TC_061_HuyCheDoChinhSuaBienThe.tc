@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_061: Hủy chế độ chỉnh sửa Biến thể</description>
+   <name>TC_061_HuyCheDoChinhSuaBienThe</name>
+   <tag>Biến thể sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0061-4000-8000-000000000061</testCaseGuid>
+</TestCaseEntity>

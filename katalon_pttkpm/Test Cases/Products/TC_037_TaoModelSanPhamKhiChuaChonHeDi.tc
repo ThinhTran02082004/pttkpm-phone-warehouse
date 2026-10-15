@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_037: Tạo Model sản phẩm khi chưa chọn Hệ điều hành</description>
+   <name>TC_037_TaoModelSanPhamKhiChuaChonHeDi</name>
+   <tag>Model sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0037-4000-8000-000000000037</testCaseGuid>
+</TestCaseEntity>

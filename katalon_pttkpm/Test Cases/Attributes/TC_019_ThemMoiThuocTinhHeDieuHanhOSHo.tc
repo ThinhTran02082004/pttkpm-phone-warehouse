@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_019: Thêm mới thuộc tính Hệ điều hành (OS) hợp lệ</description>
+   <name>TC_019_ThemMoiThuocTinhHeDieuHanhOSHo</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0019-4000-8000-000000000019</testCaseGuid>
+</TestCaseEntity>

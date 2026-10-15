@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_026: Hủy chế độ chỉnh sửa thuộc tính</description>
+   <name>TC_026_HuyCheDoChinhSuaThuocTinh</name>
+   <tag>Thuộc tính sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0026-4000-8000-000000000026</testCaseGuid>
+</TestCaseEntity>

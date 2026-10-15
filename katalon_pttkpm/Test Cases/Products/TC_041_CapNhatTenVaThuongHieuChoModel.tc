@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_041: Cập nhật tên và thương hiệu cho Model sản phẩm</description>
+   <name>TC_041_CapNhatTenVaThuongHieuChoModel</name>
+   <tag>Model sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0041-4000-8000-000000000041</testCaseGuid>
+</TestCaseEntity>

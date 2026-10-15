@@ -1,0 +1,12 @@
+.table_body {
+  border-top: 1px #ccc solid;
+}
+
+.table_body>tr:nth-of-type(odd)>* {
+  background-color: #dce6f1;
+}
+
+.tableActive {
+  /* background-color: #000000; */
+  --bs-table-bg-state: #ccc
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_126: Bấm nút 'Sửa' trên một dòng Nhà cung cấp</description>
+   <name>TC_126_BamNutSuaTrenMotDongNhaCungCap</name>
+   <tag>Nhà cung cấp,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0126-4000-8000-000000000126</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,2184 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body { font-family: Arial, sans-serif; font-size: 13px; margin: 20px; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+th { background-color: #1F4E78; color: white; border: 1px solid #777; padding: 10px; text-align: center; font-weight: bold; }
+td { border: 1px solid #ccc; padding: 8px; vertical-align: top; }
+.title { font-size: 20px; font-weight: bold; color: #1F4E78; text-align: center; margin: 15px 0; }
+.subtitle { font-size: 13px; font-style: italic; color: #555; text-align: center; margin-bottom: 25px; }
+.p1 { background-color: #FCE4D6; color: #C65911; font-weight: bold; text-align: center; }
+.p2 { background-color: #FFF2CC; color: #806000; font-weight: bold; text-align: center; }
+.p3 { background-color: #EDF2F8; color: #4169E1; font-weight: bold; text-align: center; }
+.status-ready { color: #15803d; text-align: center; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="title">BẢNG KỊCH BẢN KIỂM THỬ AUTOMATION KATALON STUDIO (170 TEST CASES)</div>
+<div class="subtitle">Đồ Án Hệ Thống Quản Lý Kho Hàng Điện Thoại (PTTKPM) — Kịch bản sẵn sàng thực thi</div>
+
+<h3>1. THỐNG KÊ TỔNG QUAN THEO PHÂN HỆ CHỨC NĂNG</h3>
+<table>
+  <tr>
+    <th>STT</th>
+    <th>Tên Phân Hệ</th>
+    <th>Dải Mã Test Case</th>
+    <th>Số Lượng Kịch Bản</th>
+    <th>Trạng Thái Thực Thi</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">1</td>
+    <td>Xác thực & Điều hướng</td>
+    <td style="text-align:center;font-weight:bold;">TC_001 – TC_015</td>
+    <td style="text-align:center;">15</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">2</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td style="text-align:center;font-weight:bold;">TC_016 – TC_030</td>
+    <td style="text-align:center;">15</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">3</td>
+    <td>Model sản phẩm</td>
+    <td style="text-align:center;font-weight:bold;">TC_031 – TC_048</td>
+    <td style="text-align:center;">18</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">4</td>
+    <td>Biến thể sản phẩm</td>
+    <td style="text-align:center;font-weight:bold;">TC_049 – TC_065</td>
+    <td style="text-align:center;">17</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">5</td>
+    <td>Nhập kho & IMEI</td>
+    <td style="text-align:center;font-weight:bold;">TC_066 – TC_085</td>
+    <td style="text-align:center;">20</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">6</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td style="text-align:center;font-weight:bold;">TC_086 – TC_105</td>
+    <td style="text-align:center;">20</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">7</td>
+    <td>Khách hàng</td>
+    <td style="text-align:center;font-weight:bold;">TC_106 – TC_118</td>
+    <td style="text-align:center;">13</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">8</td>
+    <td>Nhà cung cấp</td>
+    <td style="text-align:center;font-weight:bold;">TC_119 – TC_130</td>
+    <td style="text-align:center;">12</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">9</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td style="text-align:center;font-weight:bold;">TC_131 – TC_142</td>
+    <td style="text-align:center;">12</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">10</td>
+    <td>Nhân viên</td>
+    <td style="text-align:center;font-weight:bold;">TC_143 – TC_152</td>
+    <td style="text-align:center;">10</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">11</td>
+    <td>Tài khoản</td>
+    <td style="text-align:center;font-weight:bold;">TC_153 – TC_160</td>
+    <td style="text-align:center;">8</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">12</td>
+    <td>Vai trò & Phân quyền</td>
+    <td style="text-align:center;font-weight:bold;">TC_161 – TC_166</td>
+    <td style="text-align:center;">6</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">13</td>
+    <td>Báo cáo Thống kê & Dashboard</td>
+    <td style="text-align:center;font-weight:bold;">TC_167 – TC_170</td>
+    <td style="text-align:center;">4</td>
+    <td class="status-ready">Sẵn sàng kiểm thử</td>
+  </tr>
+  <tr style="background-color:#f0f0f0;font-weight:bold;">
+    <td colspan="3" style="text-align:right;">TỔNG CỘNG:</td>
+    <td style="text-align:center;">170 Test Cases</td>
+    <td style="text-align:center;color:#15803d;">100% Sẵn sàng</td>
+  </tr>
+</table>
+
+<h3>2. CHI TIẾT DANH SÁCH 170 KỊCH BẢN KIỂM THỬ (TEST CASES SPECIFICATION)</h3>
+<table>
+  <tr>
+    <th>STT</th>
+    <th>Mã TC</th>
+    <th>Phân Hệ</th>
+    <th>Tên Kịch Bản Kiểm Thử</th>
+    <th>Tiền Điều Kiện</th>
+    <th>Các Bước Thực Hiện</th>
+    <th>Dữ Liệu Đầu Vào</th>
+    <th>Kết Quả Mong Đợi</th>
+    <th>Trạng Thái</th>
+    <th>Mức Độ Ưu Tiên</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">1</td>
+    <td style="font-weight:bold;">TC_001</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập thành công với tài khoản Admin</td>
+    <td>Hệ thống hoạt động, tài khoản admin tồn tại</td>
+    <td>1. Mở trang /login<br/>2. Nhập username 'admin', password '123456'<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>admin / 123456</td>
+    <td>Chuyển hướng đến /dashboard, Topbar hiển thị tên 'admin' và vai trò 'Quản trị viên'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">2</td>
+    <td style="font-weight:bold;">TC_002</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập thành công với tài khoản Quản lý kho</td>
+    <td>Tài khoản warehouse01 tồn tại</td>
+    <td>1. Mở trang /login<br/>2. Nhập username 'warehouse01', password '123456'<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>warehouse01 / 123456</td>
+    <td>Đăng nhập thành công vào /dashboard, menu hiển thị các quyền kho</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">3</td>
+    <td style="font-weight:bold;">TC_003</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập thất bại khi nhập sai mật khẩu</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Nhập username 'admin'<br/>2. Nhập mật khẩu sai 'wrongpass'<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>admin / wrongpass</td>
+    <td>Hiển thị thông báo lỗi 'Tên đăng nhập hoặc mật khẩu không chính xác', không điều hướng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">4</td>
+    <td style="font-weight:bold;">TC_004</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập thất bại khi tài khoản không tồn tại</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Nhập username 'nonexistent_user'<br/>2. Nhập password '123456'<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>nonexistent_user / 123456</td>
+    <td>Hiển thị thông báo lỗi 'Tên đăng nhập hoặc mật khẩu không chính xác'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">5</td>
+    <td style="font-weight:bold;">TC_005</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập khi để trống Tên đăng nhập</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Để trống ô Tên đăng nhập<br/>2. Nhập mật khẩu '123456'<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>Username rỗng / 123456</td>
+    <td>Báo lỗi yêu cầu điền Tên đăng nhập, không gửi request hợp lệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">6</td>
+    <td style="font-weight:bold;">TC_006</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập khi để trống Mật khẩu</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Nhập username 'admin'<br/>2. Để trống ô Mật khẩu<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>admin / Mật khẩu rỗng</td>
+    <td>Báo lỗi yêu cầu điền Mật khẩu, không gửi request hợp lệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">7</td>
+    <td style="font-weight:bold;">TC_007</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng nhập khi để trống cả hai trường</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Để trống cả username và password<br/>2. Bấm 'Vào hệ thống'</td>
+    <td>Để trống toàn bộ</td>
+    <td>Hệ thống chặn submit và cảnh báo yêu cầu nhập thông tin</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">8</td>
+    <td style="font-weight:bold;">TC_008</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Bảo mật chống chuỗi SQL Injection tại ô đăng nhập</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Nhập chuỗi 'admin' OR '1'='1' vào ô username<br/>2. Nhập mật khẩu bất kỳ<br/>3. Bấm 'Vào hệ thống'</td>
+    <td>admin' OR '1'='1</td>
+    <td>Hệ thống từ chối đăng nhập, hiển thị thông báo lỗi an toàn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">9</td>
+    <td style="font-weight:bold;">TC_009</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Kiểm tra trạng thái nút submit khi đang xác thực</td>
+    <td>Đang ở trang /login</td>
+    <td>1. Điền thông tin đăng nhập<br/>2. Bấm 'Vào hệ thống'<br/>3. Quan sát nút bấm trong lúc chờ API phản hồi</td>
+    <td>admin / 123456</td>
+    <td>Nút hiển thị text 'Đang xác thực...' và chuyển sang trạng thái disabled</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">10</td>
+    <td style="font-weight:bold;">TC_010</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Đăng xuất khỏi hệ thống thành công</td>
+    <td>Đã đăng nhập thành công vào hệ thống</td>
+    <td>1. Bấm nút 'Đăng xuất' trên Topbar góc trên bên phải<br/>2. Quan sát URL và trạng thái</td>
+    <td>N/A</td>
+    <td>Hệ thống xóa token xác thực và chuyển hướng người dùng về /login</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">11</td>
+    <td style="font-weight:bold;">TC_011</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Chặn truy cập trực tiếp đường dẫn /dashboard khi chưa login</td>
+    <td>Chưa đăng nhập (chưa có token)</td>
+    <td>1. Nhập URL http://localhost:3000/dashboard trên thanh địa chỉ<br/>2. Nhấn Enter</td>
+    <td>URL: /dashboard</td>
+    <td>ProtectedRoute chặn lại và tự động điều hướng về /login</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">12</td>
+    <td style="font-weight:bold;">TC_012</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Chặn truy cập trực tiếp đường dẫn /products khi chưa login</td>
+    <td>Chưa đăng nhập</td>
+    <td>1. Nhập URL http://localhost:3000/products trên thanh địa chỉ<br/>2. Nhấn Enter</td>
+    <td>URL: /products</td>
+    <td>Tự động điều hướng về /login kèm lưu lại redirect state</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">13</td>
+    <td style="font-weight:bold;">TC_013</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Duy trì phiên đăng nhập khi F5 làm mới trình duyệt</td>
+    <td>Đã đăng nhập thành công vào /dashboard</td>
+    <td>1. Nhấn phím F5 hoặc nút Reload của trình duyệt<br/>2. Quan sát màn hình sau khi tải lại</td>
+    <td>N/A</td>
+    <td>Vẫn giữ nguyên trạng thái đăng nhập tại /dashboard, không bị văng ra trang login</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">14</td>
+    <td style="font-weight:bold;">TC_014</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Kiểm tra nút Thu gọn / Mở rộng Sidebar</td>
+    <td>Đang ở giao diện hệ thống sau khi đăng nhập</td>
+    <td>1. Bấm nút toggle menu icon trên Topbar<br/>2. Quan sát Sidebar<br/>3. Bấm lại nút toggle một lần nữa</td>
+    <td>N/A</td>
+    <td>Sidebar thu gọn lại và mở rộng ra mượt mà tương ứng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">15</td>
+    <td style="font-weight:bold;">TC_015</td>
+    <td>Xác thực & Điều hướng</td>
+    <td>Tự động chuyển hướng về trang yêu cầu ban đầu sau khi đăng nhập</td>
+    <td>Chưa đăng nhập</td>
+    <td>1. Truy cập /customers -> Bị điều hướng sang /login<br/>2. Thực hiện đăng nhập admin thành công</td>
+    <td>admin / 123456</td>
+    <td>Sau khi đăng nhập, hệ thống điều hướng trực tiếp đến /customers thay vì về /dashboard</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">16</td>
+    <td style="font-weight:bold;">TC_016</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính Thương hiệu (Brand) hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại thuộc tính 'Thương hiệu'<br/>2. Nhập mã 'BR_TEST', tên 'Thương hiệu Test'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: BR_TEST, Tên: Thương hiệu Test</td>
+    <td>Hiển thị alert banner thành công, bản ghi mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">17</td>
+    <td style="font-weight:bold;">TC_017</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính Thương hiệu khi để trống Tên</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'Thương hiệu'<br/>2. Nhập mã 'BR_ERR', để trống Tên<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Tên rỗng</td>
+    <td>Hiển thị thông báo lỗi yêu cầu nhập tên thuộc tính</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">18</td>
+    <td style="font-weight:bold;">TC_018</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính Xuất xứ (Origin) hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại thuộc tính 'Xuất xứ'<br/>2. Nhập mã 'ORI_JP', tên 'Nhật Bản'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: ORI_JP, Tên: Nhật Bản</td>
+    <td>Lưu thành công, xuất hiện trong bảng danh sách xuất xứ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">19</td>
+    <td style="font-weight:bold;">TC_019</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính Hệ điều hành (OS) hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'Hệ điều hành'<br/>2. Nhập mã 'OS_HM', tên 'HarmonyOS'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: OS_HM, Tên: HarmonyOS</td>
+    <td>Lưu thành công, xuất hiện trong bảng danh sách hệ điều hành</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">20</td>
+    <td style="font-weight:bold;">TC_020</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính RAM với dung lượng hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'RAM'<br/>2. Nhập mã 'RAM_16', tên '16 GB', dung lượng '16'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: RAM_16, Dung lượng: 16</td>
+    <td>Lưu thành công, bảng danh sách RAM cập nhật dung lượng 16GB</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">21</td>
+    <td style="font-weight:bold;">TC_021</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính RAM khi để trống trường dung lượng</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'RAM'<br/>2. Nhập mã và tên, để trống ô dung lượng<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Dung lượng rỗng</td>
+    <td>Báo lỗi yêu cầu nhập dung lượng cho thuộc tính RAM</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">22</td>
+    <td style="font-weight:bold;">TC_022</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính ROM với dung lượng hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'ROM'<br/>2. Nhập mã 'ROM_512', tên '512 GB', dung lượng '512'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: ROM_512, Dung lượng: 512</td>
+    <td>Lưu thành công, bảng danh sách ROM hiển thị 512GB</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">23</td>
+    <td style="font-weight:bold;">TC_023</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm mới thuộc tính Màu sắc (Color) hợp lệ</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn loại 'Màu sắc'<br/>2. Nhập mã 'COL_TI', tên 'Titan Tự Nhiên'<br/>3. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã: COL_TI, Tên: Titan Tự Nhiên</td>
+    <td>Lưu thành công, màu sắc mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">24</td>
+    <td style="font-weight:bold;">TC_024</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Chuyển đổi giữa các loại thuộc tính trong dropdown</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Chọn lần lượt các loại trong select #attribute-type<br/>2. Quan sát tiêu đề bảng và dữ liệu</td>
+    <td>Chọn Brand, RAM, Color...</td>
+    <td>Tiêu đề bảng đổi thành 'Danh sách thương hiệu', 'Danh sách ram'... và bảng đổi dữ liệu tương ứng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">25</td>
+    <td style="font-weight:bold;">TC_025</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Chỉnh sửa thông tin tên thuộc tính</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Bấm nút 'Sửa' trên 1 dòng thuộc tính<br/>2. Form chuyển sang chế độ 'Cập nhật'<br/>3. Đổi tên và bấm 'Cập nhật thuộc tính'</td>
+    <td>Tên mới: Đã cập nhật</td>
+    <td>Hiển thị alert thành công, tên mới được hiển thị trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">26</td>
+    <td style="font-weight:bold;">TC_026</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Hủy chế độ chỉnh sửa thuộc tính</td>
+    <td>Đang ở form chỉnh sửa thuộc tính</td>
+    <td>1. Bấm nút 'Hủy chỉnh sửa'<br/>2. Quan sát tiêu đề form và các ô input</td>
+    <td>N/A</td>
+    <td>Tiêu đề form quay về 'Thêm thuộc tính', các ô nhập được làm rỗng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">27</td>
+    <td style="font-weight:bold;">TC_027</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Ngưng hoạt động một thuộc tính đang hoạt động</td>
+    <td>Có thuộc tính ở trạng thái 'Đang hoạt động'</td>
+    <td>1. Bấm nút 'Ngưng' trên dòng thuộc tính<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Ngưng hoạt động', nhãn nút chuyển thành 'Kích hoạt'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">28</td>
+    <td style="font-weight:bold;">TC_028</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Kích hoạt lại một thuộc tính đang ngưng hoạt động</td>
+    <td>Có thuộc tính ở trạng thái 'Ngưng hoạt động'</td>
+    <td>1. Bấm nút 'Kích hoạt' trên dòng thuộc tính<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Đang hoạt động', nhãn nút chuyển thành 'Ngưng'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">29</td>
+    <td style="font-weight:bold;">TC_029</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Thêm thuộc tính với mã đã tồn tại trong CSDL</td>
+    <td>Mã thuộc tính đã có trong hệ thống</td>
+    <td>1. Nhập mã thuộc tính bị trùng<br/>2. Bấm 'Thêm thuộc tính'</td>
+    <td>Mã trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo mã thuộc tính đã tồn tại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">30</td>
+    <td style="font-weight:bold;">TC_030</td>
+    <td>Thuộc tính sản phẩm</td>
+    <td>Xuất danh sách thuộc tính ra file Excel</td>
+    <td>Đang ở trang /attributes</td>
+    <td>1. Bấm nút 'Xuất Excel'<br/>2. Kiểm tra file được tải xuống</td>
+    <td>N/A</td>
+    <td>Trình duyệt tải về file Excel chứa danh sách các thuộc tính thuộc nhóm được chọn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">31</td>
+    <td style="font-weight:bold;">TC_031</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm mới hợp lệ đầy đủ thông tin</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Nhập mã 'IP16PM', tên 'iPhone 16 Pro Max'<br/>2. Chọn Thương hiệu, Xuất xứ, Hệ điều hành<br/>3. Bấm 'Lưu model'</td>
+    <td>Mã: IP16PM, Tên: iPhone 16 Pro Max</td>
+    <td>Hiển thị alert banner thành công, model mới xuất hiện trong bảng Danh sách model</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">32</td>
+    <td style="font-weight:bold;">TC_032</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm kèm upload file ảnh đại diện</td>
+    <td>Có file ảnh PNG/JPG hợp lệ</td>
+    <td>1. Điền thông tin model<br/>2. Chọn file ảnh tại ô 'Ảnh sản phẩm'<br/>3. Bấm 'Lưu model'</td>
+    <td>File ảnh: test_phone.jpg</td>
+    <td>Lưu thành công, ảnh thumbnail hiển thị chính xác trong cột 'Ảnh' của bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">33</td>
+    <td style="font-weight:bold;">TC_033</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm khi để trống Mã model</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Để trống ô Mã model<br/>2. Điền tên model và các select<br/>3. Bấm 'Lưu model'</td>
+    <td>Mã model rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã model</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">34</td>
+    <td style="font-weight:bold;">TC_034</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm khi để trống Tên model</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Điền mã model, để trống Tên model<br/>2. Bấm 'Lưu model'</td>
+    <td>Tên model rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Tên model</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">35</td>
+    <td style="font-weight:bold;">TC_035</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm khi chưa chọn Thương hiệu</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Điền mã và tên, để ô Thương hiệu là 'Chọn thương hiệu'<br/>2. Bấm 'Lưu model'</td>
+    <td>Thương hiệu: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Thương hiệu cho sản phẩm</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">36</td>
+    <td style="font-weight:bold;">TC_036</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm khi chưa chọn Xuất xứ</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Điền mã, tên, thương hiệu, để ô Xuất xứ chưa chọn<br/>2. Bấm 'Lưu model'</td>
+    <td>Xuất xứ: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Xuất xứ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">37</td>
+    <td style="font-weight:bold;">TC_037</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm khi chưa chọn Hệ điều hành</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Điền các trường nhưng để Hệ điều hành chưa chọn<br/>2. Bấm 'Lưu model'</td>
+    <td>Hệ điều hành: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Hệ điều hành</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">38</td>
+    <td style="font-weight:bold;">TC_038</td>
+    <td>Model sản phẩm</td>
+    <td>Tạo Model sản phẩm với Mã model đã tồn tại</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Nhập Mã model trùng với mã đã có sẵn trong bảng<br/>2. Bấm 'Lưu model'</td>
+    <td>Mã trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo mã model đã tồn tại trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">39</td>
+    <td style="font-weight:bold;">TC_039</td>
+    <td>Model sản phẩm</td>
+    <td>Upload file ảnh sai định dạng (.txt, .pdf)</td>
+    <td>Đang ở form Model sản phẩm</td>
+    <td>1. Chọn file văn bản document.txt tại ô Ảnh sản phẩm<br/>2. Bấm 'Lưu model'</td>
+    <td>File: doc.txt</td>
+    <td>Hệ thống từ chối file hoặc cảnh báo định dạng ảnh không hợp lệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">40</td>
+    <td style="font-weight:bold;">TC_040</td>
+    <td>Model sản phẩm</td>
+    <td>Bấm nút 'Sửa' trên một dòng Model sản phẩm</td>
+    <td>Bảng Model có dữ liệu</td>
+    <td>1. Bấm nút 'Sửa' trên dòng model<br/>2. Quan sát form 'Cập nhật model sản phẩm'</td>
+    <td>N/A</td>
+    <td>Dữ liệu mã, tên, thương hiệu của model được nạp đầy đủ lên các ô input</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">41</td>
+    <td style="font-weight:bold;">TC_041</td>
+    <td>Model sản phẩm</td>
+    <td>Cập nhật tên và thương hiệu cho Model sản phẩm</td>
+    <td>Đang ở chế độ chỉnh sửa model</td>
+    <td>1. Sửa Tên model thành tên mới<br/>2. Chọn Thương hiệu mới<br/>3. Bấm 'Cập nhật model'</td>
+    <td>Tên mới: iPhone 16 Pro Max 2026</td>
+    <td>Hiển thị alert thành công, dữ liệu trên bảng được cập nhật ngay lập tức</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">42</td>
+    <td style="font-weight:bold;">TC_042</td>
+    <td>Model sản phẩm</td>
+    <td>Hủy chế độ chỉnh sửa Model sản phẩm</td>
+    <td>Đang ở chế độ chỉnh sửa model</td>
+    <td>1. Bấm nút 'Hủy chỉnh sửa'<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Tiêu đề form đổi lại thành 'Tạo model sản phẩm', các trường dữ liệu được reset rỗng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">43</td>
+    <td style="font-weight:bold;">TC_043</td>
+    <td>Model sản phẩm</td>
+    <td>Ngưng hoạt động một Model sản phẩm</td>
+    <td>Model đang có trạng thái 'Đang hoạt động'</td>
+    <td>1. Bấm nút 'Ngưng' trên dòng model<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Ngưng hoạt động', nút đổi thành 'Kích hoạt'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">44</td>
+    <td style="font-weight:bold;">TC_044</td>
+    <td>Model sản phẩm</td>
+    <td>Kích hoạt lại Model sản phẩm đang ngưng</td>
+    <td>Model đang có trạng thái 'Ngưng hoạt động'</td>
+    <td>1. Bấm nút 'Kích hoạt'<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Đang hoạt động', nút đổi thành 'Ngưng'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">45</td>
+    <td style="font-weight:bold;">TC_045</td>
+    <td>Model sản phẩm</td>
+    <td>Kiểm tra hiển thị ảnh thumbnail trong bảng Model</td>
+    <td>Bảng có các model có ảnh và chưa có ảnh</td>
+    <td>1. Quan sát cột 'Ảnh'<br/>2. Kiểm tra các dòng</td>
+    <td>N/A</td>
+    <td>Dòng có ảnh hiển thị thẻ img thumbnail rõ nét; dòng chưa có ảnh hiển thị 'Chưa có ảnh'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">46</td>
+    <td style="font-weight:bold;">TC_046</td>
+    <td>Model sản phẩm</td>
+    <td>Xuất danh sách Model sản phẩm ra file Excel</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Bấm nút 'Xuất Excel' tại section 'Danh sách model'<br/>2. Kiểm tra file tải về</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa toàn bộ danh sách model sản phẩm</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">47</td>
+    <td style="font-weight:bold;">TC_047</td>
+    <td>Model sản phẩm</td>
+    <td>Kiểm tra danh sách dropdown Thương hiệu đồng bộ từ Module Thuộc tính</td>
+    <td>Đã tạo thương hiệu mới tại /attributes</td>
+    <td>1. Mở trang /products<br/>2. Bấm vào dropdown #product-brand</td>
+    <td>N/A</td>
+    <td>Thương hiệu mới tạo xuất hiện trong danh sách lựa chọn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">48</td>
+    <td style="font-weight:bold;">TC_048</td>
+    <td>Model sản phẩm</td>
+    <td>Kiểm tra danh sách dropdown Hệ điều hành đồng bộ từ Module Thuộc tính</td>
+    <td>Đã tạo hệ điều hành tại /attributes</td>
+    <td>1. Mở trang /products<br/>2. Bấm vào dropdown #product-os</td>
+    <td>N/A</td>
+    <td>Hệ điều hành mới có mặt đầy đủ trong danh sách options</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">49</td>
+    <td style="font-weight:bold;">TC_049</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể mới hợp lệ đầy đủ cấu hình kỹ thuật</td>
+    <td>Đã có Model sản phẩm</td>
+    <td>1. Nhập mã biến thể 'VAR_01'<br/>2. Chọn Model, RAM, ROM, Màu sắc<br/>3. Nhập giá nhập '20000000', giá bán '25000000'<br/>4. Bấm 'Lưu biến thể'</td>
+    <td>Mã: VAR_01, Giá: 20M/25M</td>
+    <td>Hiển thị alert banner thành công, biến thể xuất hiện trong bảng Danh sách biến thể</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">50</td>
+    <td style="font-weight:bold;">TC_050</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể khi để trống Mã biến thể</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Để trống ô Mã biến thể<br/>2. Điền các trường còn lại<br/>3. Bấm 'Lưu biến thể'</td>
+    <td>Mã biến thể rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã biến thể</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">51</td>
+    <td style="font-weight:bold;">TC_051</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể khi chưa chọn Model áp dụng</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Để select Model áp dụng là 'Chọn model'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Model: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Model cho biến thể</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">52</td>
+    <td style="font-weight:bold;">TC_052</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể khi chưa chọn cấu hình RAM</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Để select RAM là 'Chọn RAM'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>RAM: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn RAM</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">53</td>
+    <td style="font-weight:bold;">TC_053</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể khi chưa chọn cấu hình ROM</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Để select ROM là 'Chọn ROM'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>ROM: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn ROM</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">54</td>
+    <td style="font-weight:bold;">TC_054</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể khi chưa chọn Màu sắc</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Để select Màu sắc là 'Chọn màu sắc'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Màu sắc: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Màu sắc</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">55</td>
+    <td style="font-weight:bold;">TC_055</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể với Đơn giá nhập âm hoặc bằng 0</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Nhập Đơn giá nhập '-1000' hoặc '0'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Giá nhập <= 0</td>
+    <td>Báo lỗi Đơn giá nhập phải lớn hơn 0</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">56</td>
+    <td style="font-weight:bold;">TC_056</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể với Đơn giá bán âm hoặc bằng 0</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Nhập Đơn giá bán '-5000' hoặc '0'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Giá bán <= 0</td>
+    <td>Báo lỗi Đơn giá bán phải lớn hơn 0</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">57</td>
+    <td style="font-weight:bold;">TC_057</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể với Đơn giá bán nhỏ hơn Đơn giá nhập</td>
+    <td>Đang ở form Biến thể</td>
+    <td>1. Nhập Giá nhập '20000000', Giá bán '15000000'<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Giá bán < Giá nhập</td>
+    <td>Hệ thống cảnh báo biên độ lợi nhuận âm hoặc chặn lưu giá bất hợp lý</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">58</td>
+    <td style="font-weight:bold;">TC_058</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tạo Biến thể trùng lặp hoàn toàn cấu hình</td>
+    <td>Đã có biến thể cùng Model, RAM, ROM, Màu</td>
+    <td>1. Nhập mã mới nhưng chọn trùng cấu hình đã có<br/>2. Bấm 'Lưu biến thể'</td>
+    <td>Cấu hình trùng lặp</td>
+    <td>Hệ thống báo lỗi biến thể với cấu hình kỹ thuật này đã tồn tại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">59</td>
+    <td style="font-weight:bold;">TC_059</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Bấm nút 'Sửa' trên một dòng Biến thể</td>
+    <td>Bảng Biến thể có dữ liệu</td>
+    <td>1. Bấm nút 'Sửa' trên dòng biến thể<br/>2. Quan sát form Biến thể</td>
+    <td>N/A</td>
+    <td>Dữ liệu biến thể được nạp lên form, form chuyển sang tiêu đề 'Cập nhật biến thể'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">60</td>
+    <td style="font-weight:bold;">TC_060</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Cập nhật Đơn giá bán của Biến thể</td>
+    <td>Đang ở chế độ chỉnh sửa biến thể</td>
+    <td>1. Đổi Đơn giá bán thành '28000000'<br/>2. Bấm 'Cập nhật biến thể'</td>
+    <td>Giá bán mới: 28M</td>
+    <td>Hiển thị alert thành công, giá bán mới cập nhật trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">61</td>
+    <td style="font-weight:bold;">TC_061</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Hủy chế độ chỉnh sửa Biến thể</td>
+    <td>Đang ở chế độ chỉnh sửa biến thể</td>
+    <td>1. Bấm nút 'Hủy chỉnh sửa'<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Form quay lại chế độ 'Tạo biến thể' và các ô nhập liệu được làm rỗng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">62</td>
+    <td style="font-weight:bold;">TC_062</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Ngưng hoạt động một Biến thể sản phẩm</td>
+    <td>Biến thể đang ở trạng thái 'Đang hoạt động'</td>
+    <td>1. Bấm nút 'Ngưng' trên dòng biến thể<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Ngưng hoạt động', nút đổi thành 'Kích hoạt'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">63</td>
+    <td style="font-weight:bold;">TC_063</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Kích hoạt lại một Biến thể đang ngưng</td>
+    <td>Biến thể đang ở trạng thái 'Ngưng hoạt động'</td>
+    <td>1. Bấm nút 'Kích hoạt'<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Đang hoạt động', nút đổi thành 'Ngưng'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">64</td>
+    <td style="font-weight:bold;">TC_064</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Xuất danh sách Biến thể ra file Excel</td>
+    <td>Đang ở trang /products</td>
+    <td>1. Bấm nút 'Xuất Excel' tại section 'Danh sách biến thể'<br/>2. Kiểm tra file tải về</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa danh sách các biến thể sản phẩm</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">65</td>
+    <td style="font-weight:bold;">TC_065</td>
+    <td>Biến thể sản phẩm</td>
+    <td>Tìm kiếm IMEI trong khối 'Danh sách IMEI'</td>
+    <td>Trang /products có bảng IMEI</td>
+    <td>1. Nhập chuỗi số IMEI hoặc tên model vào ô #inventory-search<br/>2. Quan sát bảng</td>
+    <td>Từ khóa tìm kiếm</td>
+    <td>Bảng danh sách IMEI lọc chính xác các bản ghi khớp với từ khóa tìm kiếm</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">66</td>
+    <td style="font-weight:bold;">TC_066</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập kho 1 dòng với 3 IMEI hợp lệ</td>
+    <td>Đang ở trang /imports</td>
+    <td>1. Nhập mã phiếu, chọn NCC<br/>2. Chọn biến thể, nhập đơn giá '15000000'<br/>3. Nhập 3 IMEI hợp lệ<br/>4. Bấm 'Lưu phiếu nhập'</td>
+    <td>Mã: IMP_01, 3 IMEI</td>
+    <td>Hiển thị alert banner thành công, phiếu nhập mới xuất hiện trên bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">67</td>
+    <td style="font-weight:bold;">TC_067</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập kho với nhiều dòng nhập hàng</td>
+    <td>Đang ở trang /imports</td>
+    <td>1. Điền thông tin dòng 1<br/>2. Bấm 'Thêm dòng nhập'<br/>3. Điền biến thể và IMEI cho dòng 2<br/>4. Bấm 'Lưu phiếu nhập'</td>
+    <td>2 dòng nhập khác nhau</td>
+    <td>Lưu thành công, tổng số lượng IMEI được cộng gộp và hiển thị trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">68</td>
+    <td style="font-weight:bold;">TC_068</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Xóa một dòng nhập hàng trước khi lưu</td>
+    <td>Form đang có 2 dòng nhập hàng</td>
+    <td>1. Bấm nút 'Xóa dòng' tại dòng thứ 2<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Dòng thứ 2 biến mất, form chỉ còn lại 1 dòng nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">69</td>
+    <td style="font-weight:bold;">TC_069</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Kiểm tra nút 'Xóa dòng' bị disabled khi chỉ có 1 dòng</td>
+    <td>Form đang có duy nhất 1 dòng nhập</td>
+    <td>1. Quan sát nút 'Xóa dòng'<br/>2. Thử click nút</td>
+    <td>N/A</td>
+    <td>Nút 'Xóa dòng' ở trạng thái disabled, không thể xóa khi chỉ còn 1 dòng duy nhất</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">70</td>
+    <td style="font-weight:bold;">TC_070</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập khi để trống Mã phiếu nhập</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Để trống ô Mã phiếu nhập<br/>2. Điền các trường còn lại<br/>3. Bấm 'Lưu phiếu nhập'</td>
+    <td>Mã phiếu rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã phiếu nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">71</td>
+    <td style="font-weight:bold;">TC_071</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập khi chưa chọn Nhà cung cấp</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Điền mã phiếu, để NCC là 'Chọn nhà cung cấp'<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>NCC: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Nhà cung cấp</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">72</td>
+    <td style="font-weight:bold;">TC_072</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập khi chưa chọn Biến thể nhập</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Để ô Biến thể nhập là 'Chọn biến thể'<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>Biến thể: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Biến thể cho dòng nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">73</td>
+    <td style="font-weight:bold;">TC_073</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập với Đơn giá nhập âm hoặc bằng 0</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Nhập Đơn giá nhập '-500000'<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>Đơn giá <= 0</td>
+    <td>Báo lỗi Đơn giá nhập phải lớn hơn 0</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">74</td>
+    <td style="font-weight:bold;">TC_074</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập khi để trống danh sách IMEI</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Để trống ô Danh sách IMEI<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>IMEI rỗng</td>
+    <td>Báo lỗi yêu cầu nhập ít nhất 1 mã IMEI cho dòng nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">75</td>
+    <td style="font-weight:bold;">TC_075</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Nhập danh sách IMEI có chứa mã trùng lặp trong cùng dòng</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Nhập 2 mã IMEI giống hệt nhau vào ô textarea<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>2 IMEI trùng nhau</td>
+    <td>Hiển thị alert lỗi phát hiện mã IMEI bị trùng lặp trong lô hàng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">76</td>
+    <td style="font-weight:bold;">TC_076</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Nhập IMEI đã tồn tại trong kho (trạng thái in_stock)</td>
+    <td>Đã có IMEI tồn tại trong CSDL</td>
+    <td>1. Điền form với mã IMEI đã có sẵn trong kho<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>IMEI đã có sẵn</td>
+    <td>Hiển thị alert lỗi mã IMEI đã tồn tại trong hệ thống, giao dịch bị rollback</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">77</td>
+    <td style="font-weight:bold;">TC_077</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Nhập danh sách IMEI phân tách bằng dấu phẩy</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Nhập '860000000000001, 860000000000002'<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>Dấu phẩy phân tách</td>
+    <td>Hệ thống tự động phân tách chuỗi và ghi nhận đúng 2 mã IMEI</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">78</td>
+    <td style="font-weight:bold;">TC_078</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Nhập danh sách IMEI có khoảng trắng thừa đầu/cuối</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Nhập '  860000000000003   \n   860000000000004  '<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>IMEI có space</td>
+    <td>Hệ thống tự động trim khoảng trắng và lưu mã chuẩn xác</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">79</td>
+    <td style="font-weight:bold;">TC_079</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Nhập ghi chú cho phiếu nhập kho</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Nhập nội dung vào ô Ghi chú phiếu nhập (#import-notes)<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>Ghi chú: Lô hàng đợt 1</td>
+    <td>Lưu thành công, thông tin ghi chú được ghi nhận vào CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">80</td>
+    <td style="font-weight:bold;">TC_080</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Kiểm tra số lượng IMEI và Tổng tiền hiển thị trên bảng</td>
+    <td>Vừa tạo phiếu nhập thành công</td>
+    <td>1. Quan sát cột 'IMEI' và 'Tổng tiền' của dòng phiếu vừa tạo</td>
+    <td>N/A</td>
+    <td>Cột IMEI hiển thị đúng số lượng thiết bị; Tổng tiền = Đơn giá * Số lượng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">81</td>
+    <td style="font-weight:bold;">TC_081</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Kiểm tra trạng thái các IMEI vừa nhập trong kho</td>
+    <td>Vừa nhập kho thành công</td>
+    <td>1. Mở trang /products hoặc kiểm tra CSDL<br/>2. Tìm các IMEI vừa nhập</td>
+    <td>N/A</td>
+    <td>Trạng thái của tất cả các IMEI mới nhập là 'in_stock' (tồn kho sẵn sàng)</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">82</td>
+    <td style="font-weight:bold;">TC_082</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Kiểm tra định dạng hiển thị tiền tệ trên bảng phiếu nhập</td>
+    <td>Bảng phiếu nhập có dữ liệu</td>
+    <td>1. Quan sát giá trị cột 'Tổng tiền'</td>
+    <td>N/A</td>
+    <td>Tiền tệ được format chuẩn có phân cách hàng nghìn (VD: 45,000,000 đ)</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">83</td>
+    <td style="font-weight:bold;">TC_083</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Xuất danh sách phiếu nhập kho ra file Excel</td>
+    <td>Đang ở trang /imports</td>
+    <td>1. Bấm nút 'Xuất Excel' trên header bảng Danh sách phiếu nhập<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa đầy đủ danh sách các phiếu nhập kho</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">84</td>
+    <td style="font-weight:bold;">TC_084</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Tạo phiếu nhập với ngày đặt và ngày nhận tùy chỉnh</td>
+    <td>Đang ở form Nhập kho</td>
+    <td>1. Chọn ngày tại #import-ordered-at và #import-received-at<br/>2. Bấm 'Lưu phiếu nhập'</td>
+    <td>Ngày tháng tùy chọn</td>
+    <td>Phiếu nhập lưu đúng mốc thời gian đã chọn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">85</td>
+    <td style="font-weight:bold;">TC_085</td>
+    <td>Nhập kho & IMEI</td>
+    <td>Kiểm tra phân quyền: User không có quyền nhập kho</td>
+    <td>Đăng nhập bằng tài khoản không có quyền imports</td>
+    <td>1. Truy cập /imports<br/>2. Thử thực hiện tạo phiếu</td>
+    <td>Tài khoản hạn chế</td>
+    <td>Giao diện ẩn nút thao tác hoặc backend trả về mã lỗi 403 Forbidden</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">86</td>
+    <td style="font-weight:bold;">TC_086</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Tạo phiếu xuất kho hợp lệ cho Khách hàng</td>
+    <td>Kho có IMEI trạng thái 'in_stock'</td>
+    <td>1. Nhập mã phiếu, chọn Khách hàng<br/>2. Nhập mã IMEI có trong kho vào textarea<br/>3. Bấm 'Lưu phiếu xuất'</td>
+    <td>Mã: EXP_01, IMEI hợp lệ</td>
+    <td>Hiển thị alert banner thành công, phiếu xuất mới xuất hiện trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">87</td>
+    <td style="font-weight:bold;">TC_087</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Tạo phiếu xuất kho với nhiều IMEI cùng lúc</td>
+    <td>Kho có nhiều IMEI sẵn sàng</td>
+    <td>1. Nhập danh sách 3 mã IMEI đang có trong kho<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>3 IMEI hợp lệ</td>
+    <td>Lưu thành công, tổng tiền và số lượng IMEI được tính toán chính xác</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">88</td>
+    <td style="font-weight:bold;">TC_088</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Tạo phiếu xuất khi để trống Mã phiếu xuất</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Để trống ô Mã phiếu xuất<br/>2. Điền các trường khác<br/>3. Bấm 'Lưu phiếu xuất'</td>
+    <td>Mã phiếu rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã phiếu xuất</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">89</td>
+    <td style="font-weight:bold;">TC_089</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Tạo phiếu xuất khi chưa chọn Khách hàng</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Điền mã phiếu, để ô Khách hàng là 'Chọn khách hàng'<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>Khách hàng: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Khách hàng nhận máy</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">90</td>
+    <td style="font-weight:bold;">TC_090</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Tạo phiếu xuất khi để trống danh sách IMEI xuất</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Để trống textarea IMEI cần xuất<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>IMEI rỗng</td>
+    <td>Báo lỗi yêu cầu nhập danh sách IMEI cần xuất kho</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">91</td>
+    <td style="font-weight:bold;">TC_091</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Xuất kho với mã IMEI không tồn tại trong hệ thống</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Nhập mã IMEI '999999999999999' không có trong CSDL<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>IMEI không tồn tại</td>
+    <td>Hiển thị alert lỗi không tìm thấy thiết bị với mã IMEI đã nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">92</td>
+    <td style="font-weight:bold;">TC_092</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Xuất kho với mã IMEI đã được xuất bán trước đó</td>
+    <td>IMEI đã ở trạng thái 'sold'</td>
+    <td>1. Nhập mã IMEI đã bán vào form xuất<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>IMEI trạng thái sold</td>
+    <td>Hiển thị alert lỗi thiết bị đã được xuất bán trước đó, không thể xuất lại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">93</td>
+    <td style="font-weight:bold;">TC_093</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Xuất kho với mã IMEI đang tiếp nhận bảo hành</td>
+    <td>IMEI đang ở trạng thái 'in_service'</td>
+    <td>1. Nhập mã IMEI đang trong quy trình dịch vụ<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>IMEI trạng thái in_service</td>
+    <td>Báo lỗi thiết bị đang trong trạng thái dịch vụ/bảo hành, không được phép xuất</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">94</td>
+    <td style="font-weight:bold;">TC_094</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Xuất kho với danh sách IMEI bị trùng lặp trong form</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Nhập 2 mã IMEI giống hệt nhau<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>IMEI trùng nhau</td>
+    <td>Hiển thị alert lỗi phát hiện mã IMEI bị lặp lại trong danh sách xuất</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">95</td>
+    <td style="font-weight:bold;">TC_095</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra chuyển đổi trạng thái của IMEI sau khi xuất kho</td>
+    <td>Vừa xuất kho thành công</td>
+    <td>1. Kiểm tra trạng thái thiết bị trong kho</td>
+    <td>N/A</td>
+    <td>Trạng thái của các IMEI xuất kho chuyển từ 'in_stock' sang 'sold'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">96</td>
+    <td style="font-weight:bold;">TC_096</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra thông tin phiếu xuất hiển thị trên bảng</td>
+    <td>Vừa tạo phiếu xuất thành công</td>
+    <td>1. Quan sát dòng đầu tiên của bảng Danh sách phiếu xuất</td>
+    <td>N/A</td>
+    <td>Hiển thị đúng Mã phiếu, Tên khách hàng, Số lượng IMEI, Ngày bán, Tổng tiền</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">97</td>
+    <td style="font-weight:bold;">TC_097</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Nhập ghi chú cho phiếu xuất kho (#export-notes)</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Nhập ghi chú đơn hàng<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>Ghi chú: Khách quen VIP</td>
+    <td>Phiếu xuất lưu thành công và ghi chú được lưu vào CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">98</td>
+    <td style="font-weight:bold;">TC_098</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Chọn thời điểm bán hàng tùy chỉnh (#export-sold-at)</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Chọn ngày giờ bán hàng<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>Thời điểm tùy chọn</td>
+    <td>Ghi nhận đúng thời điểm bán hàng trên CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">99</td>
+    <td style="font-weight:bold;">TC_099</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Xuất danh sách phiếu xuất kho ra file Excel</td>
+    <td>Đang ở trang /exports</td>
+    <td>1. Bấm nút 'Xuất Excel' trên header bảng Danh sách phiếu xuất<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa đầy đủ danh sách các phiếu xuất kho</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">100</td>
+    <td style="font-weight:bold;">TC_100</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra cập nhật doanh thu trên Dashboard sau khi xuất</td>
+    <td>Vừa xuất thành công đơn hàng</td>
+    <td>1. Truy cập /dashboard<br/>2. Quan sát widget Doanh thu</td>
+    <td>N/A</td>
+    <td>Số liệu doanh thu tăng lên tương ứng với giá trị đơn xuất kho vừa hoàn tất</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">101</td>
+    <td style="font-weight:bold;">TC_101</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra đồng bộ danh sách khách hàng trong select xuất kho</td>
+    <td>Đã tạo Khách hàng mới tại /customers</td>
+    <td>1. Mở trang /exports<br/>2. Bấm vào select #export-customer</td>
+    <td>N/A</td>
+    <td>Khách hàng mới xuất hiện trong danh sách lựa chọn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">102</td>
+    <td style="font-weight:bold;">TC_102</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Nhập danh sách IMEI xuất phân tách bằng dấu phẩy và xuống dòng</td>
+    <td>Đang ở form Xuất kho</td>
+    <td>1. Nhập chuỗi IMEI kết hợp cả dấu phẩy và ngắt dòng<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>Định dạng kết hợp</td>
+    <td>Hệ thống parse chính xác từng mã IMEI và xuất kho thành công</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">103</td>
+    <td style="font-weight:bold;">TC_103</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Thực hiện xuất kho với số lượng lớn (giao dịch lớn)</td>
+    <td>Kho có đủ số lượng máy</td>
+    <td>1. Nhập danh sách 10 IMEI tồn kho<br/>2. Bấm 'Lưu phiếu xuất'</td>
+    <td>10 IMEI</td>
+    <td>Giao dịch hoàn tất toàn vẹn, cập nhật đủ 10 máy sang trạng thái sold</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">104</td>
+    <td style="font-weight:bold;">TC_104</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra định dạng ngày giờ xuất kho trên bảng</td>
+    <td>Bảng phiếu xuất có dữ liệu</td>
+    <td>1. Quan sát cột Ngày bán trên bảng</td>
+    <td>N/A</td>
+    <td>Hiển thị đúng định dạng thời gian Việt Nam (DD/MM/YYYY HH:mm)</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p3">P3</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">105</td>
+    <td style="font-weight:bold;">TC_105</td>
+    <td>Xuất kho & Bán hàng</td>
+    <td>Kiểm tra phân quyền: User không có quyền xuất kho</td>
+    <td>Đăng nhập tài khoản không có quyền exports</td>
+    <td>1. Truy cập /exports<br/>2. Thử xuất kho</td>
+    <td>Tài khoản hạn chế</td>
+    <td>Giao diện ngăn chặn hoặc backend trả về mã lỗi 403 Forbidden</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">106</td>
+    <td style="font-weight:bold;">TC_106</td>
+    <td>Khách hàng</td>
+    <td>Tạo mới Khách hàng thành công với thông tin hợp lệ</td>
+    <td>Đang ở trang /customers</td>
+    <td>1. Nhập mã 'CUS_99', tên 'Nguyễn Văn Test'<br/>2. Nhập SĐT '0981112233', email 'test@gmail.com'<br/>3. Bấm 'Lưu khách hàng'</td>
+    <td>Thông tin hợp lệ</td>
+    <td>Hiển thị alert banner thành công, khách hàng mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">107</td>
+    <td style="font-weight:bold;">TC_107</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng khi để trống Mã khách hàng</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Để trống ô Mã khách hàng<br/>2. Điền tên, SĐT, email<br/>3. Bấm 'Lưu khách hàng'</td>
+    <td>Mã KH rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã khách hàng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">108</td>
+    <td style="font-weight:bold;">TC_108</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng khi để trống Tên khách hàng</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Điền mã, để trống Tên khách hàng<br/>2. Bấm 'Lưu khách hàng'</td>
+    <td>Tên KH rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Tên khách hàng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">109</td>
+    <td style="font-weight:bold;">TC_109</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng khi để trống Số điện thoại</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Điền mã và tên, để trống Số điện thoại<br/>2. Bấm 'Lưu khách hàng'</td>
+    <td>SĐT rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Số điện thoại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">110</td>
+    <td style="font-weight:bold;">TC_110</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng với Số điện thoại chứa ký tự chữ</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Nhập SĐT '0981abcd99'<br/>2. Bấm 'Lưu khách hàng'</td>
+    <td>SĐT chứa chữ</td>
+    <td>Báo lỗi định dạng số điện thoại không hợp lệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">111</td>
+    <td style="font-weight:bold;">TC_111</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng với Email sai định dạng</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Nhập Email 'testemailgmail.com' (thiếu @)<br/>2. Bấm 'Lưu khách hàng'</td>
+    <td>Email sai format</td>
+    <td>Báo lỗi định dạng email không hợp lệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">112</td>
+    <td style="font-weight:bold;">TC_112</td>
+    <td>Khách hàng</td>
+    <td>Tạo Khách hàng với Mã khách hàng đã tồn tại</td>
+    <td>Đang ở form Khách hàng</td>
+    <td>1. Nhập mã KH trùng với khách hàng đã có sẵn<br/>2. Bấm 'Lưu khách hàng'</td>
+    <td>Mã KH trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo mã khách hàng đã tồn tại trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">113</td>
+    <td style="font-weight:bold;">TC_113</td>
+    <td>Khách hàng</td>
+    <td>Bấm nút 'Sửa' trên một dòng Khách hàng</td>
+    <td>Bảng Khách hàng có dữ liệu</td>
+    <td>1. Bấm nút 'Sửa' trên dòng khách hàng<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Dữ liệu khách hàng nạp lên form, form chuyển sang tiêu đề 'Cập nhật khách hàng'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">114</td>
+    <td style="font-weight:bold;">TC_114</td>
+    <td>Khách hàng</td>
+    <td>Cập nhật Tên và Số điện thoại Khách hàng</td>
+    <td>Đang ở chế độ chỉnh sửa khách hàng</td>
+    <td>1. Đổi tên và số điện thoại mới<br/>2. Bấm 'Cập nhật khách hàng'</td>
+    <td>Thông tin cập nhật</td>
+    <td>Hiển thị alert thành công, dữ liệu mới cập nhật trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">115</td>
+    <td style="font-weight:bold;">TC_115</td>
+    <td>Khách hàng</td>
+    <td>Hủy chế độ chỉnh sửa Khách hàng</td>
+    <td>Đang ở chế độ chỉnh sửa khách hàng</td>
+    <td>1. Bấm nút 'Hủy chỉnh sửa'<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Form quay lại tiêu đề 'Tạo khách hàng' và các ô nhập liệu được làm rỗng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">116</td>
+    <td style="font-weight:bold;">TC_116</td>
+    <td>Khách hàng</td>
+    <td>Ngưng hoạt động một Khách hàng</td>
+    <td>Khách hàng đang có trạng thái 'Đang hoạt động'</td>
+    <td>1. Bấm nút 'Ngưng' trên dòng khách hàng<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Ngưng hoạt động', nhãn nút chuyển thành 'Kích hoạt'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">117</td>
+    <td style="font-weight:bold;">TC_117</td>
+    <td>Khách hàng</td>
+    <td>Kích hoạt lại Khách hàng đang ngưng hoạt động</td>
+    <td>Khách hàng đang có trạng thái 'Ngưng hoạt động'</td>
+    <td>1. Bấm nút 'Kích hoạt'<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Trạng thái đổi thành 'Đang hoạt động', nhãn nút chuyển thành 'Ngưng'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">118</td>
+    <td style="font-weight:bold;">TC_118</td>
+    <td>Khách hàng</td>
+    <td>Xuất danh sách Khách hàng ra file Excel</td>
+    <td>Đang ở trang /customers</td>
+    <td>1. Bấm nút 'Xuất Excel' trên header bảng Danh sách khách hàng<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa đầy đủ danh sách thông tin khách hàng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">119</td>
+    <td style="font-weight:bold;">TC_119</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo mới Nhà cung cấp đầy đủ thông tin hợp lệ</td>
+    <td>Đang ở trang /suppliers</td>
+    <td>1. Nhập mã 'SUP_99', tên 'Công ty NCC Test'<br/>2. Nhập SĐT '0909123456', email 'ncc@test.com'<br/>3. Bấm 'Lưu nhà cung cấp'</td>
+    <td>Thông tin hợp lệ</td>
+    <td>Hiển thị alert banner thành công, NCC mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">120</td>
+    <td style="font-weight:bold;">TC_120</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp khi để trống Mã nhà cung cấp</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Để trống ô Mã nhà cung cấp<br/>2. Điền tên, SĐT, email<br/>3. Bấm 'Lưu nhà cung cấp'</td>
+    <td>Mã NCC rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã nhà cung cấp</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">121</td>
+    <td style="font-weight:bold;">TC_121</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp khi để trống Tên nhà cung cấp</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Điền mã, để trống Tên nhà cung cấp<br/>2. Bấm 'Lưu nhà cung cấp'</td>
+    <td>Tên NCC rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Tên nhà cung cấp</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">122</td>
+    <td style="font-weight:bold;">TC_122</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp khi để trống Số điện thoại</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Điền mã và tên, để trống Số điện thoại<br/>2. Bấm 'Lưu nhà cung cấp'</td>
+    <td>SĐT rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Số điện thoại liên hệ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">123</td>
+    <td style="font-weight:bold;">TC_123</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp với Số điện thoại sai định dạng</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Nhập SĐT chứa ký tự không hợp lệ<br/>2. Bấm 'Lưu nhà cung cấp'</td>
+    <td>SĐT không hợp lệ</td>
+    <td>Báo lỗi định dạng số điện thoại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">124</td>
+    <td style="font-weight:bold;">TC_124</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp với Email sai định dạng</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Nhập Email không đúng cấu trúc email<br/>2. Bấm 'Lưu nhà cung cấp'</td>
+    <td>Email sai format</td>
+    <td>Báo lỗi định dạng email</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">125</td>
+    <td style="font-weight:bold;">TC_125</td>
+    <td>Nhà cung cấp</td>
+    <td>Tạo Nhà cung cấp với Mã nhà cung cấp đã tồn tại</td>
+    <td>Đang ở form Nhà cung cấp</td>
+    <td>1. Nhập Mã NCC trùng với mã đã có sẵn trong bảng<br/>2. Bấm 'Lưu nhà cung cấp'</td>
+    <td>Mã NCC trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo mã nhà cung cấp đã tồn tại trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">126</td>
+    <td style="font-weight:bold;">TC_126</td>
+    <td>Nhà cung cấp</td>
+    <td>Bấm nút 'Sửa' trên một dòng Nhà cung cấp</td>
+    <td>Bảng Nhà cung cấp có dữ liệu</td>
+    <td>1. Bấm nút 'Sửa' trên dòng NCC<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Dữ liệu NCC nạp lên form, form chuyển sang tiêu đề 'Cập nhật nhà cung cấp'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">127</td>
+    <td style="font-weight:bold;">TC_127</td>
+    <td>Nhà cung cấp</td>
+    <td>Cập nhật Tên và Email Nhà cung cấp</td>
+    <td>Đang ở chế độ chỉnh sửa NCC</td>
+    <td>1. Sửa Tên NCC và Email mới<br/>2. Bấm 'Cập nhật nhà cung cấp'</td>
+    <td>Thông tin mới</td>
+    <td>Hiển thị alert thành công, dữ liệu mới cập nhật trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">128</td>
+    <td style="font-weight:bold;">TC_128</td>
+    <td>Nhà cung cấp</td>
+    <td>Hủy chế độ chỉnh sửa Nhà cung cấp</td>
+    <td>Đang ở chế độ chỉnh sửa NCC</td>
+    <td>1. Bấm nút 'Hủy chỉnh sửa'<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Form quay lại tiêu đề 'Tạo nhà cung cấp' và các ô nhập liệu được làm rỗng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">129</td>
+    <td style="font-weight:bold;">TC_129</td>
+    <td>Nhà cung cấp</td>
+    <td>Ngưng hoạt động / Kích hoạt lại Nhà cung cấp</td>
+    <td>Bảng NCC có dữ liệu</td>
+    <td>1. Bấm nút 'Ngưng' hoặc 'Kích hoạt' trên dòng NCC<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Cột Trạng thái chuyển đổi tương ứng giữa 'Đang hoạt động' và 'Ngưng hoạt động'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">130</td>
+    <td style="font-weight:bold;">TC_130</td>
+    <td>Nhà cung cấp</td>
+    <td>Xuất danh sách Nhà cung cấp ra file Excel</td>
+    <td>Đang ở trang /suppliers</td>
+    <td>1. Bấm nút 'Xuất Excel' trên header bảng Danh sách nhà cung cấp<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa đầy đủ danh sách thông tin nhà cung cấp</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">131</td>
+    <td style="font-weight:bold;">TC_131</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ bảo hành hợp lệ cho thiết bị</td>
+    <td>Kho có thiết bị đã bán</td>
+    <td>1. Nhập mã phiếu 'SRV_01'<br/>2. Chọn IMEI, chọn loại 'Bảo hành'<br/>3. Nhập mô tả lỗi 'Lỗi loa ngoài'<br/>4. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>Loại: Bảo hành</td>
+    <td>Hiển thị alert thành công, phiếu dịch vụ mới xuất hiện trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">132</td>
+    <td style="font-weight:bold;">TC_132</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ đổi trả thiết bị (ticket type: return)</td>
+    <td>Kho có thiết bị đủ điều kiện đổi trả</td>
+    <td>1. Nhập thông tin phiếu, chọn loại 'Đổi trả'<br/>2. Nhập mô tả lỗi sản phẩm<br/>3. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>Loại: Đổi trả</td>
+    <td>Phiếu dịch vụ đổi trả được tạo thành công</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">133</td>
+    <td style="font-weight:bold;">TC_133</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ sửa chữa dịch vụ (ticket type: repair)</td>
+    <td>Có thiết bị tiếp nhận sửa chữa</td>
+    <td>1. Nhập thông tin phiếu, chọn loại 'Sửa chữa'<br/>2. Nhập chi tiết hư hỏng<br/>3. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>Loại: Sửa chữa</td>
+    <td>Phiếu dịch vụ sửa chữa được tạo thành công</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">134</td>
+    <td style="font-weight:bold;">TC_134</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ khi để trống Mã phiếu</td>
+    <td>Đang ở form Dịch vụ</td>
+    <td>1. Để trống ô Mã phiếu dịch vụ<br/>2. Điền các trường còn lại<br/>3. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>Mã phiếu rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã phiếu dịch vụ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">135</td>
+    <td style="font-weight:bold;">TC_135</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ khi chưa chọn mã IMEI thiết bị</td>
+    <td>Đang ở form Dịch vụ</td>
+    <td>1. Để select IMEI tiếp nhận là 'Chọn IMEI'<br/>2. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>IMEI: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn mã IMEI thiết bị tiếp nhận</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">136</td>
+    <td style="font-weight:bold;">TC_136</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ khi để trống Mô tả lỗi</td>
+    <td>Đang ở form Dịch vụ</td>
+    <td>1. Điền các trường nhưng để trống ô Mô tả lỗi (#service-issue)<br/>2. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>Mô tả lỗi rỗng</td>
+    <td>Báo lỗi yêu cầu nhập chi tiết mô tả lỗi hư hỏng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">137</td>
+    <td style="font-weight:bold;">TC_137</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Tạo phiếu dịch vụ với mã IMEI không hợp lệ</td>
+    <td>Đang ở form Dịch vụ</td>
+    <td>1. Thử gửi mã IMEI không có trong dữ liệu<br/>2. Bấm 'Lưu phiếu dịch vụ'</td>
+    <td>IMEI sai</td>
+    <td>Báo lỗi thiết bị không hợp lệ hoặc không có quyền tiếp nhận dịch vụ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">138</td>
+    <td style="font-weight:bold;">TC_138</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Kiểm tra chuyển đổi trạng thái của IMEI sau khi lập phiếu dịch vụ</td>
+    <td>Vừa tạo phiếu dịch vụ thành công</td>
+    <td>1. Kiểm tra trạng thái của máy trong kho</td>
+    <td>N/A</td>
+    <td>Trạng thái của thiết bị đổi thành 'in_service' (đang xử lý kỹ thuật)</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">139</td>
+    <td style="font-weight:bold;">TC_139</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Xem danh sách các phiếu dịch vụ trong bảng</td>
+    <td>Trang /services có dữ liệu</td>
+    <td>1. Quan sát bảng Danh sách phiếu dịch vụ</td>
+    <td>N/A</td>
+    <td>Hiển thị đầy đủ Mã phiếu, IMEI, Loại phiếu, Tình trạng xử lý, Ngày tiếp nhận</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">140</td>
+    <td style="font-weight:bold;">TC_140</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Cập nhật trạng thái phiếu dịch vụ sang 'Đã hoàn thành'</td>
+    <td>Có phiếu dịch vụ đang xử lý</td>
+    <td>1. Thao tác cập nhật trạng thái phiếu<br/>2. Quan sát bảng</td>
+    <td>Trạng thái mới: Hoàn thành</td>
+    <td>Trạng thái phiếu cập nhật thành công, thông tin được lưu lại</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">141</td>
+    <td style="font-weight:bold;">TC_141</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Kiểm tra giải phóng trạng thái thiết bị sau khi hoàn thành dịch vụ</td>
+    <td>Phiếu dịch vụ đã xong</td>
+    <td>1. Kiểm tra trạng thái IMEI sau khi hoàn tất</td>
+    <td>N/A</td>
+    <td>Thiết bị được giải phóng trạng thái về đúng quy trình kỹ thuật</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">142</td>
+    <td style="font-weight:bold;">TC_142</td>
+    <td>Dịch vụ & Bảo hành</td>
+    <td>Xuất danh sách phiếu dịch vụ ra file Excel</td>
+    <td>Đang ở trang /services</td>
+    <td>1. Bấm nút 'Xuất Excel' trên bảng Danh sách phiếu dịch vụ<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa toàn bộ danh sách phiếu dịch vụ</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">143</td>
+    <td style="font-weight:bold;">TC_143</td>
+    <td>Nhân viên</td>
+    <td>Tạo mới Nhân viên đầy đủ thông tin hợp lệ</td>
+    <td>Đang ở trang /employees</td>
+    <td>1. Nhập mã 'EMP_99', họ tên 'Lê Văn Test'<br/>2. Nhập email 'emp_test@company.com', SĐT '0912999888'<br/>3. Chọn Giới tính 'Nam'<br/>4. Bấm 'Tạo nhân viên'</td>
+    <td>Thông tin NV hợp lệ</td>
+    <td>Hiển thị alert banner thành công, nhân viên mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">144</td>
+    <td style="font-weight:bold;">TC_144</td>
+    <td>Nhân viên</td>
+    <td>Tạo Nhân viên khi để trống Mã nhân viên</td>
+    <td>Đang ở form Nhân viên</td>
+    <td>1. Để trống ô Mã nhân viên<br/>2. Điền các trường khác<br/>3. Bấm 'Tạo nhân viên'</td>
+    <td>Mã NV rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mã nhân viên</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">145</td>
+    <td style="font-weight:bold;">TC_145</td>
+    <td>Nhân viên</td>
+    <td>Tạo Nhân viên khi để trống Họ tên nhân viên</td>
+    <td>Đang ở form Nhân viên</td>
+    <td>1. Điền mã, để trống Họ tên nhân viên<br/>2. Bấm 'Tạo nhân viên'</td>
+    <td>Họ tên rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Họ tên nhân viên</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">146</td>
+    <td style="font-weight:bold;">TC_146</td>
+    <td>Nhân viên</td>
+    <td>Tạo Nhân viên khi để trống Email</td>
+    <td>Đang ở form Nhân viên</td>
+    <td>1. Điền các trường nhưng để trống Email<br/>2. Bấm 'Tạo nhân viên'</td>
+    <td>Email rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Email liên hệ của nhân viên</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">147</td>
+    <td style="font-weight:bold;">TC_147</td>
+    <td>Nhân viên</td>
+    <td>Tạo Nhân viên với Email sai định dạng</td>
+    <td>Đang ở form Nhân viên</td>
+    <td>1. Nhập email không đúng định dạng<br/>2. Bấm 'Tạo nhân viên'</td>
+    <td>Email sai format</td>
+    <td>Báo lỗi định dạng email</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">148</td>
+    <td style="font-weight:bold;">TC_148</td>
+    <td>Nhân viên</td>
+    <td>Tạo Nhân viên với Mã nhân viên đã tồn tại</td>
+    <td>Đang ở form Nhân viên</td>
+    <td>1. Nhập Mã NV trùng với nhân viên đã có sẵn<br/>2. Bấm 'Tạo nhân viên'</td>
+    <td>Mã NV trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo mã nhân viên đã tồn tại trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">149</td>
+    <td style="font-weight:bold;">TC_149</td>
+    <td>Nhân viên</td>
+    <td>Bấm nút 'Sửa' trên một dòng Nhân viên</td>
+    <td>Bảng Nhân viên có dữ liệu</td>
+    <td>1. Bấm nút 'Sửa' trên dòng nhân viên<br/>2. Quan sát form</td>
+    <td>N/A</td>
+    <td>Dữ liệu nhân viên nạp lên form, form chuyển sang tiêu đề 'Cập nhật nhân viên'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">150</td>
+    <td style="font-weight:bold;">TC_150</td>
+    <td>Nhân viên</td>
+    <td>Cập nhật Họ tên và Số điện thoại Nhân viên</td>
+    <td>Đang ở chế độ chỉnh sửa nhân viên</td>
+    <td>1. Đổi họ tên và SĐT mới<br/>2. Bấm 'Cập nhật nhân viên'</td>
+    <td>Thông tin mới</td>
+    <td>Hiển thị alert thành công, dữ liệu mới cập nhật trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">151</td>
+    <td style="font-weight:bold;">TC_151</td>
+    <td>Nhân viên</td>
+    <td>Ngưng hoạt động / Kích hoạt lại Nhân viên</td>
+    <td>Bảng Nhân viên có dữ liệu</td>
+    <td>1. Bấm nút 'Ngưng' hoặc 'Kích hoạt' trên dòng nhân viên<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Cột Trạng thái chuyển đổi tương ứng giữa 'Đang hoạt động' và 'Ngưng hoạt động'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">152</td>
+    <td style="font-weight:bold;">TC_152</td>
+    <td>Nhân viên</td>
+    <td>Xuất danh sách Nhân viên ra file Excel</td>
+    <td>Đang ở trang /employees</td>
+    <td>1. Bấm nút 'Xuất Excel' trên header bảng Danh sách nhân viên<br/>2. Kiểm tra file</td>
+    <td>N/A</td>
+    <td>Tải về file Excel chứa toàn bộ thông tin nhân viên</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">153</td>
+    <td style="font-weight:bold;">TC_153</td>
+    <td>Tài khoản</td>
+    <td>Tạo mới Tài khoản đăng nhập liên kết Nhân viên</td>
+    <td>Đang ở trang /accounts</td>
+    <td>1. Chọn Nhân viên, chọn Vai trò<br/>2. Nhập username 'testacc_01', password '123456'<br/>3. Bấm 'Tạo tài khoản'</td>
+    <td>Thông tin tài khoản hợp lệ</td>
+    <td>Hiển thị alert thành công, tài khoản mới xuất hiện trong bảng danh sách</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">154</td>
+    <td style="font-weight:bold;">TC_154</td>
+    <td>Tài khoản</td>
+    <td>Tạo Tài khoản khi chưa chọn Nhân viên liên kết</td>
+    <td>Đang ở form Tài khoản</td>
+    <td>1. Để select Nhân viên là 'Chọn nhân viên'<br/>2. Bấm 'Tạo tài khoản'</td>
+    <td>Nhân viên: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Nhân viên liên kết</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">155</td>
+    <td style="font-weight:bold;">TC_155</td>
+    <td>Tài khoản</td>
+    <td>Tạo Tài khoản khi chưa chọn Vai trò (Role)</td>
+    <td>Đang ở form Tài khoản</td>
+    <td>1. Để select Vai trò là 'Chọn vai trò'<br/>2. Bấm 'Tạo tài khoản'</td>
+    <td>Vai trò: Chưa chọn</td>
+    <td>Báo lỗi yêu cầu chọn Vai trò cho tài khoản</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">156</td>
+    <td style="font-weight:bold;">TC_156</td>
+    <td>Tài khoản</td>
+    <td>Tạo Tài khoản khi để trống Tên đăng nhập</td>
+    <td>Đang ở form Tài khoản</td>
+    <td>1. Để trống ô Tên đăng nhập<br/>2. Bấm 'Tạo tài khoản'</td>
+    <td>Username rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Tên đăng nhập</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">157</td>
+    <td style="font-weight:bold;">TC_157</td>
+    <td>Tài khoản</td>
+    <td>Tạo Tài khoản khi để trống Mật khẩu</td>
+    <td>Đang ở form Tài khoản</td>
+    <td>1. Điền username, để trống ô Mật khẩu<br/>2. Bấm 'Tạo tài khoản'</td>
+    <td>Password rỗng</td>
+    <td>Báo lỗi yêu cầu nhập Mật khẩu cho tài khoản mới</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">158</td>
+    <td style="font-weight:bold;">TC_158</td>
+    <td>Tài khoản</td>
+    <td>Tạo Tài khoản với Tên đăng nhập đã tồn tại</td>
+    <td>Đang ở form Tài khoản</td>
+    <td>1. Nhập username trùng với tài khoản đã có sẵn (VD: 'admin')<br/>2. Bấm 'Tạo tài khoản'</td>
+    <td>Username trùng lặp</td>
+    <td>Hiển thị alert lỗi thông báo tên đăng nhập đã được sử dụng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">159</td>
+    <td style="font-weight:bold;">TC_159</td>
+    <td>Tài khoản</td>
+    <td>Cập nhật Vai trò cho một Tài khoản hiện có</td>
+    <td>Bảng Tài khoản có dữ liệu</td>
+    <td>1. Bấm 'Sửa' trên dòng tài khoản<br/>2. Chọn Vai trò mới trong dropdown<br/>3. Bấm 'Cập nhật tài khoản'</td>
+    <td>Vai trò mới</td>
+    <td>Cập nhật thành công, vai trò mới hiển thị trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">160</td>
+    <td style="font-weight:bold;">TC_160</td>
+    <td>Tài khoản</td>
+    <td>Khóa (Ngưng hoạt động) một Tài khoản</td>
+    <td>Tài khoản đang ở trạng thái 'Đang hoạt động'</td>
+    <td>1. Bấm nút 'Ngưng' trên dòng tài khoản<br/>2. Thử đăng nhập bằng tài khoản này tại /login</td>
+    <td>Tài khoản bị ngưng</td>
+    <td>Trạng thái đổi thành 'Ngưng hoạt động'; khi thử đăng nhập thì hệ thống từ chối</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">161</td>
+    <td style="font-weight:bold;">TC_161</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Xem danh sách các Vai trò mặc định hệ thống</td>
+    <td>Đang ở trang /roles</td>
+    <td>1. Quan sát bảng Danh sách vai trò</td>
+    <td>N/A</td>
+    <td>Hiển thị đầy đủ các vai trò: Quản trị viên (admin), Kho (warehouse), Bán hàng (sales)...</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">162</td>
+    <td style="font-weight:bold;">TC_162</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Tạo mới Vai trò người dùng hợp lệ</td>
+    <td>Đang ở trang /roles</td>
+    <td>1. Nhập mã 'branch_mgr', tên 'Quản lý Chi nhánh'<br/>2. Nhập mô tả vai trò<br/>3. Bấm 'Tạo vai trò'</td>
+    <td>Mã: branch_mgr, Tên: Quản lý Chi nhánh</td>
+    <td>Hiển thị alert thành công, vai trò mới xuất hiện trong bảng và trong dropdown Tài khoản</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">163</td>
+    <td style="font-weight:bold;">TC_163</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Tạo Vai trò khi để trống Mã hoặc Tên vai trò</td>
+    <td>Đang ở form Vai trò</td>
+    <td>1. Để trống Mã hoặc Tên vai trò<br/>2. Bấm 'Tạo vai trò'</td>
+    <td>Trường bắt buộc rỗng</td>
+    <td>Báo lỗi yêu cầu nhập đầy đủ Mã và Tên vai trò</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">164</td>
+    <td style="font-weight:bold;">TC_164</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Tạo Vai trò với Mã vai trò đã tồn tại</td>
+    <td>Đang ở form Vai trò</td>
+    <td>1. Nhập Mã vai trò trùng với mã đã có sẵn<br/>2. Bấm 'Tạo vai trò'</td>
+    <td>Mã vai trò trùng</td>
+    <td>Hiển thị alert lỗi thông báo mã vai trò đã tồn tại trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">165</td>
+    <td style="font-weight:bold;">TC_165</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Cập nhật Tên và Mô tả Vai trò</td>
+    <td>Đang ở trang /roles</td>
+    <td>1. Bấm 'Sửa' trên dòng vai trò<br/>2. Đổi tên và mô tả<br/>3. Bấm 'Cập nhật vai trò'</td>
+    <td>Thông tin mới</td>
+    <td>Hiển thị alert thành công, dữ liệu vai trò cập nhật trên bảng</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">166</td>
+    <td style="font-weight:bold;">TC_166</td>
+    <td>Vai trò & Phân quyền</td>
+    <td>Ngưng hoạt động / Kích hoạt lại Vai trò</td>
+    <td>Bảng Vai trò có dữ liệu</td>
+    <td>1. Bấm nút 'Ngưng' hoặc 'Kích hoạt' trên dòng vai trò<br/>2. Quan sát cột Trạng thái</td>
+    <td>N/A</td>
+    <td>Cột Trạng thái cập nhật tương ứng giữa 'Đang hoạt động' và 'Ngưng hoạt động'</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">167</td>
+    <td style="font-weight:bold;">TC_167</td>
+    <td>Báo cáo Thống kê & Dashboard</td>
+    <td>Xem số liệu tổng quan trên Dashboard vận hành</td>
+    <td>Đang ở trang /dashboard</td>
+    <td>1. Quan sát các widget thống kê tổng quan (Doanh thu gần đây, tình trạng thiết bị...)</td>
+    <td>N/A</td>
+    <td>Các thẻ thông tin hiển thị dữ liệu trực quan, số liệu khớp với giao dịch thật trong CSDL</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">168</td>
+    <td style="font-weight:bold;">TC_168</td>
+    <td>Báo cáo Thống kê & Dashboard</td>
+    <td>Lọc báo cáo thống kê theo khoảng thời gian tùy chọn</td>
+    <td>Đang ở trang /statistics</td>
+    <td>1. Chọn ngày tại #statistics-start-date và #statistics-end-date<br/>2. Bấm 'Áp dụng lọc'</td>
+    <td>Khoảng thời gian hợp lệ</td>
+    <td>Báo cáo doanh thu và tình trạng kho cập nhật lại đúng số liệu theo khoảng thời gian đã chọn</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p1">P1</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">169</td>
+    <td style="font-weight:bold;">TC_169</td>
+    <td>Báo cáo Thống kê & Dashboard</td>
+    <td>Xuất Báo cáo Doanh thu ra file Excel</td>
+    <td>Đang ở trang /statistics</td>
+    <td>1. Bấm nút 'Xuất doanh thu' (data-testid='statistics-export-revenue')<br/>2. Kiểm tra file tải về</td>
+    <td>N/A</td>
+    <td>Trình duyệt tải về file Excel báo cáo doanh thu chi tiết</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">170</td>
+    <td style="font-weight:bold;">TC_170</td>
+    <td>Báo cáo Thống kê & Dashboard</td>
+    <td>Xuất Báo cáo Tồn kho ra file Excel</td>
+    <td>Đang ở trang /statistics</td>
+    <td>1. Bấm nút 'Xuất tồn kho' (data-testid='statistics-export-inventory')<br/>2. Kiểm tra file tải về</td>
+    <td>N/A</td>
+    <td>Trình duyệt tải về file Excel báo cáo tồn kho chi tiết</td>
+    <td class="status-ready">Sẵn sàng</td>
+    <td class="p2">P2</td>
+  </tr>
+</table>
+</body>
+</html>

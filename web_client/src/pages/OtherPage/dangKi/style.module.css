@@ -1,0 +1,187 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 1rem;
+}
+
+.backgroundOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3), transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 135, 135, 0.3), transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(138, 180, 248, 0.3), transparent 50%);
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.registerCard {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  border: none;
+  animation: slideUp 0.5s ease-out;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.98) !important;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.iconWrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.6);
+  }
+}
+
+.userIcon {
+  font-size: 2.5rem;
+  color: white;
+}
+
+/* Form Styling */
+.registerCard :global(.form-label) {
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+.registerCard :global(.btn-primary) {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.registerCard :global(.btn-primary:hover:not(:disabled)) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.registerCard :global(.btn-primary:active:not(:disabled)) {
+  transform: translateY(0);
+}
+
+.registerCard :global(.btn-primary:disabled) {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.registerCard :global(.alert) {
+  border-radius: 10px;
+  border: none;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.registerCard :global(.form-control) {
+  border-radius: 8px;
+  border: 2px solid #e2e8f0;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.registerCard :global(.form-control:focus) {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.registerCard a {
+  color: #667eea;
+  transition: color 0.3s ease;
+}
+
+.registerCard a:hover {
+  color: #764ba2;
+  text-decoration: underline !important;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+
+  .registerCard {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  .registerCard :global(.card-body) {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .iconWrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .userIcon {
+    font-size: 2rem;
+  }
+
+  .registerCard h2 {
+    font-size: 1.5rem;
+  }
+
+  .registerCard p {
+    font-size: 0.9rem;
+  }
+}
+
+
+

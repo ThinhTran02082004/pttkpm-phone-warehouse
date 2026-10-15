@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_128: Hủy chế độ chỉnh sửa Nhà cung cấp</description>
+   <name>TC_128_HuyCheDoChinhSuaNhaCungCap</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0128-4000-8000-000000000128</testCaseGuid>
+</TestCaseEntity>

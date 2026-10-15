@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_146: Tạo Nhân viên khi để trống Email</description>
+   <name>TC_146_TaoNhanVienKhiDeTrongEmail</name>
+   <tag>Nhân viên,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0146-4000-8000-000000000146</testCaseGuid>
+</TestCaseEntity>

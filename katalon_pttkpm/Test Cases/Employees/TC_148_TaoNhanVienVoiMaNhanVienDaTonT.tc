@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_148: Tạo Nhân viên với Mã nhân viên đã tồn tại</description>
+   <name>TC_148_TaoNhanVienVoiMaNhanVienDaTonT</name>
+   <tag>Nhân viên,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0148-4000-8000-000000000148</testCaseGuid>
+</TestCaseEntity>

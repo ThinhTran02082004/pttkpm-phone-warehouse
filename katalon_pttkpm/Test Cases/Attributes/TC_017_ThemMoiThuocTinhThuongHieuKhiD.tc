@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_017: Thêm mới thuộc tính Thương hiệu khi để trống Tên</description>
+   <name>TC_017_ThemMoiThuocTinhThuongHieuKhiD</name>
+   <tag>Thuộc tính sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0017-4000-8000-000000000017</testCaseGuid>
+</TestCaseEntity>

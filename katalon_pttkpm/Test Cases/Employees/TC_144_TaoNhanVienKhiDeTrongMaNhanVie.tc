@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_144: Tạo Nhân viên khi để trống Mã nhân viên</description>
+   <name>TC_144_TaoNhanVienKhiDeTrongMaNhanVie</name>
+   <tag>Nhân viên,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0144-4000-8000-000000000144</testCaseGuid>
+</TestCaseEntity>

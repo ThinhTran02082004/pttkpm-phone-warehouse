@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_090: Tạo phiếu xuất khi để trống danh sách IMEI xuất</description>
+   <name>TC_090_TaoPhieuXuatKhiDeTrongDanhSach</name>
+   <tag>Xuất kho &amp; Bán hàng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0090-4000-8000-000000000090</testCaseGuid>
+</TestCaseEntity>

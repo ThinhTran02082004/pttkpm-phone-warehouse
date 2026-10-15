@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_008: Bảo mật chống chuỗi SQL Injection tại ô đăng nhập</description>
+   <name>TC_008_BaoMatChongChuoiSQLInjectionTa</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0008-4000-8000-000000000008</testCaseGuid>
+</TestCaseEntity>

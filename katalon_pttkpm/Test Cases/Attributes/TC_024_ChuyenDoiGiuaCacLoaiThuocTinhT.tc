@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_024: Chuyển đổi giữa các loại thuộc tính trong dropdown</description>
+   <name>TC_024_ChuyenDoiGiuaCacLoaiThuocTinhT</name>
+   <tag>Thuộc tính sản phẩm,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0024-4000-8000-000000000024</testCaseGuid>
+</TestCaseEntity>

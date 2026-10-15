@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_168: Lọc báo cáo thống kê theo khoảng thời gian tùy chọn</description>
+   <name>TC_168_LocBaoCaoThongKeTheoKhoangThoi</name>
+   <tag>Báo cáo Thống kê &amp; Dashboard,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0168-4000-8000-000000000168</testCaseGuid>
+</TestCaseEntity>

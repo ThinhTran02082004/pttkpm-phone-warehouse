@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_066: Tạo phiếu nhập kho 1 dòng với 3 IMEI hợp lệ</description>
+   <name>TC_066_CreateImportReceipt</name>
+   <tag>Nhập kho &amp; IMEI,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0066-4000-8000-000000000066</testCaseGuid>
+</TestCaseEntity>

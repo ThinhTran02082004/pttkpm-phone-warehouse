@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_043: Ngưng hoạt động một Model sản phẩm</description>
+   <name>TC_043_NgungHoatDongMotModelSanPham</name>
+   <tag>Model sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0043-4000-8000-000000000043</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_040: Bấm nút 'Sửa' trên một dòng Model sản phẩm</description>
+   <name>TC_040_BamNutSuaTrenMotDongModelSanPh</name>
+   <tag>Model sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0040-4000-8000-000000000040</testCaseGuid>
+</TestCaseEntity>

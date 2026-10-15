@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_124: Tạo Nhà cung cấp với Email sai định dạng</description>
+   <name>TC_124_TaoNhaCungCapVoiEmailSaiDinhDa</name>
+   <tag>Nhà cung cấp,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0124-4000-8000-000000000124</testCaseGuid>
+</TestCaseEntity>

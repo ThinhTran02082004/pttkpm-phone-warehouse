@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_025: Chỉnh sửa thông tin tên thuộc tính</description>
+   <name>TC_025_ChinhSuaThongTinTenThuocTinh</name>
+   <tag>Thuộc tính sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0025-4000-8000-000000000025</testCaseGuid>
+</TestCaseEntity>

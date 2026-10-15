@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_086: Tạo phiếu xuất kho hợp lệ cho Khách hàng</description>
+   <name>TC_086_TaoPhieuXuatKhoHopLeChoKhachHa</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0086-4000-8000-000000000086</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_015: Tự động chuyển hướng về trang yêu cầu ban đầu sau khi đăng nhập</description>
+   <name>TC_015_TuDongChuyenHuongVeTrangYeuCau</name>
+   <tag>Xác thực &amp; Điều hướng,P2</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0015-4000-8000-000000000015</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_096: Kiểm tra thông tin phiếu xuất hiển thị trên bảng</description>
+   <name>TC_096_KiemTraThongTinPhieuXuatHienTh</name>
+   <tag>Xuất kho &amp; Bán hàng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0096-4000-8000-000000000096</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_119: Tạo mới Nhà cung cấp đầy đủ thông tin hợp lệ</description>
+   <name>TC_119_TaoMoiNhaCungCapDayDuThongTinH</name>
+   <tag>Nhà cung cấp,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0119-4000-8000-000000000119</testCaseGuid>
+</TestCaseEntity>

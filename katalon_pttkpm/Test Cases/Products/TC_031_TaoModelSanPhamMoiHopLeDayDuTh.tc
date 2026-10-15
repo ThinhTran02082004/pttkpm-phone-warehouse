@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_031: Tạo Model sản phẩm mới hợp lệ đầy đủ thông tin</description>
+   <name>TC_031_TaoModelSanPhamMoiHopLeDayDuTh</name>
+   <tag>Model sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0031-4000-8000-000000000031</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<mxGraphModel dx="1782" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="3" value="&lt;div style='text-align:center;'&gt;So do kien truc client-server cua he thong&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="200" y="20" width="1000" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="&lt;div style='text-align:center;'&gt;Nguoi dung&lt;br&gt;- Quan ly kho&lt;br&gt;- Nhan vien kho&lt;br&gt;- Nhan vien CSKH&lt;/div&gt;" style="shape=umlActor;html=1;outlineConnect=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#ffffff;strokeColor=#355c7d;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="70" y="320" width="90" height="130" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="&lt;div style='text-align:center;'&gt;Web Client&lt;br&gt;(ReactJS)&lt;br&gt;&lt;br&gt;- Dang nhap&lt;br&gt;- Giao dien nghiep vu&lt;br&gt;- Thong ke&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#355c7d;strokeWidth=2;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="250" y="290" width="250" height="160" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="&lt;div style='text-align:center;'&gt;Web Server / API&lt;br&gt;(Node.js)&lt;br&gt;&lt;br&gt;- Xu ly nghiep vu&lt;br&gt;- Xac thuc, phan quyen&lt;br&gt;- Truy van du lieu&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7fbff;strokeColor=#355c7d;strokeWidth=2;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="590" y="260" width="300" height="220" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" value="&lt;div style='text-align:center;'&gt;Co so du lieu&lt;br&gt;(MySQL)&lt;br&gt;&lt;br&gt;- San pham&lt;br&gt;- IMEI&lt;br&gt;- Nhap kho&lt;br&gt;- Xuat kho&lt;br&gt;- Doi tac&lt;br&gt;- Dich vu&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#eef5fb;strokeColor=#355c7d;strokeWidth=2;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="980" y="285" width="260" height="180" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="&lt;div style='text-align:center;'&gt;Bao cao dau ra&lt;br&gt;&lt;br&gt;- Ton kho&lt;br&gt;- Doanh thu&lt;br&gt;- Nha cung cap&lt;br&gt;- Khach hang&lt;br&gt;- Excel&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#eef5fb;strokeColor=#355c7d;strokeWidth=2;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1">
+      <mxGeometry x="980" y="540" width="260" height="150" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1.6;strokeColor=#355c7d;" edge="1" parent="1" source="4" target="5">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1.6;strokeColor=#355c7d;" edge="1" parent="1" source="5" target="6">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1.6;strokeColor=#355c7d;" edge="1" parent="1" source="6" target="7">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=1.6;strokeColor=#355c7d;" edge="1" parent="1" source="6" target="8">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

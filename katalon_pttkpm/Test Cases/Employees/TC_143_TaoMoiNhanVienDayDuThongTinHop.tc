@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_143: Tạo mới Nhân viên đầy đủ thông tin hợp lệ</description>
+   <name>TC_143_TaoMoiNhanVienDayDuThongTinHop</name>
+   <tag>Nhân viên,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0143-4000-8000-000000000143</testCaseGuid>
+</TestCaseEntity>

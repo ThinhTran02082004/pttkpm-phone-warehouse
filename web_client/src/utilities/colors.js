@@ -1,0 +1,66 @@
+const colors = {
+  gray_0: "#333333",
+  gray_1: "#666666",
+  gray_2: "#999999",
+  gray_3: "#cccccc",
+  gray_4: "#dddddd",
+  gray_5: "#eeeeee",
+
+  red: "#cf2a27",
+  red_0: "#ea9999",
+  red_1: "#e06666",
+  red_2: "#cc0000",
+  red_3: "#990000",
+  red_4: "#660000",
+
+  orange: "#ff9900",
+  orange_0: "#f9cb9c",
+  orange_1: "#f6b26b",
+  orange_2: "#e69138",
+  orange_3: "#b45f06",
+  orange_4: "#783f04",
+
+  yellow: "#ffff00",
+  yellow_0: "#ffe599",
+  yellow_1: "#ffd966",
+  yellow_2: "#f1c232",
+  yellow_3: "#bf9000",
+  yellow_4: "#7f6000",
+
+  green: "#009e0f",
+  green_0: "#b6d7a8",
+  green_1: "#93c47d",
+  green_2: "#6aa84f",
+  green_3: "#38761d",
+  green_4: "#274e13",
+
+  cyan: "#00ffff",
+  cyan_0: "#a2c4c9",
+  cyan_1: "#76a5af",
+  cyan_2: "#45818e",
+  cyan_3: "#134f5c",
+  cyan_4: "#0c343d",
+
+  blue: "#2b78e4",
+  blue_0: "#9fc5f8",
+  blue_1: "#6fa8dc",
+  blue_2: "#597eaa",
+  blue_3: "#085394",
+  blue_4: "#073763",
+
+  purple: "#9900ff",
+  purple_0: "#b4a7d6",
+  purple_1: "#8e7cc3",
+  purple_2: "#674ea7",
+  purple_3: "#351c75",
+  purple_4: "#20124d",
+
+  pink: "#ff00ff",
+  pink_0: "#d5a6bd",
+  pink_1: "#c27ba0",
+  pink_2: "#a64d79",
+  pink_3: "#741b47",
+  pink_4: "#4c1130",
+}
+
+export default colors

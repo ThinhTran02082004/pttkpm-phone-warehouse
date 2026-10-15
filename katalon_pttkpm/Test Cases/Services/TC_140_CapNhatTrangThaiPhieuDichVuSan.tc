@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_140: Cập nhật trạng thái phiếu dịch vụ sang 'Đã hoàn thành'</description>
+   <name>TC_140_CapNhatTrangThaiPhieuDichVuSan</name>
+   <tag>Dịch vụ &amp; Bảo hành,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0140-4000-8000-000000000140</testCaseGuid>
+</TestCaseEntity>

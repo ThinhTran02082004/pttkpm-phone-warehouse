@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_065: Tìm kiếm IMEI trong khối 'Danh sách IMEI'</description>
+   <name>TC_065_TimKiemIMEITrongKhoiDanhSachIM</name>
+   <tag>Biến thể sản phẩm,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0065-4000-8000-000000000065</testCaseGuid>
+</TestCaseEntity>

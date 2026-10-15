@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_011: Chặn truy cập trực tiếp đường dẫn /dashboard khi chưa login</description>
+   <name>TC_011_ChanTruyCapTrucTiepDuongDanDas</name>
+   <tag>Xác thực &amp; Điều hướng,P1</tag>
+   <comment></comment>
+   <testCaseGuid>a1b2c3d4-0011-4000-8000-000000000011</testCaseGuid>
+</TestCaseEntity>
